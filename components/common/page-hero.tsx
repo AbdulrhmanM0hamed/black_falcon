@@ -40,7 +40,7 @@ export function PageHero({
             <h1 className="max-w-4xl text-balance text-3xl font-semibold leading-[1.24] tracking-tight text-white md:text-[3.5rem] md:leading-[1.2] xl:text-[4.2rem] xl:leading-[1.16]">
               {title}
             </h1>
-            <p className="max-w-2xl text-lg leading-9 text-white/68 md:text-xl">
+            <p className="max-w-2xl text-base leading-8 text-white/68 md:text-lg">
               {description}
             </p>
           </Reveal>

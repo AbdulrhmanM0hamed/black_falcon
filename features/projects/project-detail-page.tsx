@@ -40,15 +40,23 @@ export function ProjectDetailPage({
       ? { href: project.links.website, label: dictionary.common.liveWebsite }
       : null,
     project.links.googlePlay
-      ? { href: project.links.googlePlay, label: dictionary.common.googlePlay }
+      ? {
+          href: project.links.googlePlay,
+          label: dictionary.common.googlePlay,
+          icon: "/icons/google_play_icon.webp",
+        }
       : null,
     project.links.appStore
-      ? { href: project.links.appStore, label: dictionary.common.appStore }
+      ? {
+          href: project.links.appStore,
+          label: dictionary.common.appStore,
+          icon: "/icons/app_store_icon.png",
+        }
       : null,
     project.links.caseStudy
       ? { href: project.links.caseStudy, label: dictionary.common.caseStudy }
       : null,
-  ].filter(Boolean) as Array<{ href: string; label: string }>;
+  ].filter(Boolean) as Array<{ href: string; label: string; icon?: string }>;
 
   return (
     <div className="pb-20">
@@ -66,8 +74,18 @@ export function ProjectDetailPage({
                   asChild
                   size="lg"
                   variant={index === 0 ? "primary" : "secondary"}
+                  className="gap-2.5"
                 >
                   <a href={button.href} target="_blank" rel="noreferrer">
+                    {button.icon ? (
+                      <Image
+                        src={button.icon}
+                        alt=""
+                        width={20}
+                        height={20}
+                        className="h-5 w-5 object-contain"
+                      />
+                    ) : null}
                     {button.label}
                   </a>
                 </Button>
