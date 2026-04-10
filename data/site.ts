@@ -5,6 +5,7 @@ import type {
   SiteSettings,
   SiteStats,
   TechnologyGroup,
+  TrustSignal,
 } from "@/types/content";
 
 export const siteSettings: SiteSettings = {

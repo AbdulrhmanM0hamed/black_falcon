@@ -27,6 +27,7 @@ import type {
   SiteStats,
   TechnologyGroup,
   Testimonial,
+  TrustSignal,
 } from "@/types/content";
 import { withLocale } from "@/lib/i18n";
 
@@ -49,7 +50,7 @@ export function HomePage({
   featuredProjects: Project[];
   services: Service[];
   stats: SiteStats[];
-  trustSignals: ReadonlyArray<Record<Locale, string>>;
+  trustSignals: ReadonlyArray<TrustSignal>;
   values: CompanyValue[];
   technologies: TechnologyGroup[];
   process: ProcessStep[];
