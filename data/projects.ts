@@ -13,7 +13,10 @@ import type { Project } from "@/types/content";
 export const projects: Project[] = [
   {
     slug: "bashra-ai",
-    name: "Bashra AI",
+    name: {
+      en: "Bashra AI",
+      ar: "بشرة",
+    },
     shortDescription: {
       en: "An AI-assisted beauty consultation platform combining a premium web funnel with a mobile care experience.",
       ar: "منصة استشارات تجميل مدعومة بالذكاء الاصطناعي تجمع بين تجربة ويب تسويقية راقية وتطبيق متابعة على الموبايل.",
@@ -173,9 +176,15 @@ export const projects: Project[] = [
     relatedProjectSlugs: ["derma-ai", "healtho-gym", "moazez-app"],
     featured: true,
   },
+
+  /* --------------------------------------------------------------------------------------------------------------- */
+
   {
     slug: "dalilk",
-    name: "Dalilk",
+    name: {
+      en: "Dalilk",
+      ar: "دلالك",
+    },
     shortDescription: {
       en: "A service discovery platform with strong information architecture, filtering, and trust-driven content.",
       ar: "منصة لاكتشاف الخدمات بهندسة معلومات قوية وفلاتر واضحة ومحتوى يعزز الثقة.",
@@ -333,9 +342,15 @@ export const projects: Project[] = [
     relatedProjectSlugs: ["moazez-web", "multqi-elnor", "zakroon"],
     featured: true,
   },
+
+    /* --------------------------------------------------------------------------------------------------------------- */
+
   {
     slug: "derma-ai",
-    name: "Derma AI",
+    name: {
+      en: "Derma AI",
+      ar: "ديرما AI",
+    },
     shortDescription: {
       en: "A diagnostic guidance concept for dermatology services spanning web onboarding and mobile continuity.",
       ar: "مفهوم منتج للإرشاد التشخيصي في الجلدية يجمع بين Onboarding الويب واستمرارية الموبايل.",
@@ -493,9 +508,16 @@ export const projects: Project[] = [
     heroAccent: "#ffb45e",
     relatedProjectSlugs: ["bashra-ai", "healtho-gym", "zakroon"],
   },
+
+    /* --------------------------------------------------------------------------------------------------------------- */
+
+
   {
     slug: "healtho-gym",
-    name: "Healtho Gym",
+    name: {
+      en: "Healtho Gym",
+      ar: "هيلثو جيم",
+    },
     shortDescription: {
       en: "A fitness platform unifying membership journeys, performance content, and a companion mobile app.",
       ar: "منصة لياقة توحّد رحلات الاشتراك والمحتوى والأداء مع تطبيق موبايل مكمّل.",
@@ -654,9 +676,15 @@ export const projects: Project[] = [
     relatedProjectSlugs: ["bashra-ai", "moazez-app", "mshwar"],
     featured: true,
   },
+
+    /* --------------------------------------------------------------------------------------------------------------- */
+
   {
     slug: "moazez-app",
-    name: "Moazez App",
+    name: {
+      en: "Moazez App",
+      ar: "تطبيق معزز",
+    },
     shortDescription: {
       en: "A community-centric mobile application built to strengthen engagement, participation, and recurring use.",
       ar: "تطبيق موبايل مجتمعي صُمم لتعزيز التفاعل والمشاركة والعودة المتكررة.",
@@ -812,9 +840,15 @@ export const projects: Project[] = [
     heroAccent: "#ff9f50",
     relatedProjectSlugs: ["moazez-web", "healtho-gym", "multqi-elnor"],
   },
+
+    /* --------------------------------------------------------------------------------------------------------------- */
+
   {
     slug: "moazez-web",
-    name: "Moazez Website",
+    name: {
+      en: "Moazez Website",
+      ar: "موقع معزز",
+    },
     shortDescription: {
       en: "A brand and acquisition website created to support the wider Moazez product ecosystem.",
       ar: "موقع علامة وتحويل صُمم لدعم منظومة Moazez الرقمية الأوسع.",
@@ -965,9 +999,15 @@ export const projects: Project[] = [
     heroAccent: "#f7a14a",
     relatedProjectSlugs: ["moazez-app", "multqi-elnor", "dalilk"],
   },
+
+    /* --------------------------------------------------------------------------------------------------------------- */
+
   {
     slug: "mshwar",
-    name: "Mshwar",
+    name: {
+      en: "Mshwar",
+      ar: "مشوار",
+    },
     shortDescription: {
       en: "A mobility and operations product for coordinating trips, requests, and service visibility across channels.",
       ar: "منتج للتنقل والعمليات ينسق الرحلات والطلبات ووضوح الخدمة عبر القنوات المختلفة.",
@@ -1125,9 +1165,15 @@ export const projects: Project[] = [
     relatedProjectSlugs: ["dalilk", "zakroon", "healtho-gym"],
     featured: true,
   },
+
+    /* --------------------------------------------------------------------------------------------------------------- */
+
   {
     slug: "multqi-elnor",
-    name: "Multqi Elnor",
+    name: {
+      en: "Multqi Elnor",
+      ar: "ملتقى النور القرأني",
+    },
     shortDescription: {
       en: "An event and community website created to present programs, speakers, and participation pathways with clarity.",
       ar: "موقع فعاليات ومجتمع صُمم لعرض البرامج والمتحدثين ومسارات المشاركة بوضوح.",
@@ -1278,9 +1324,14 @@ export const projects: Project[] = [
     heroAccent: "#f5a955",
     relatedProjectSlugs: ["moazez-web", "dalilk", "zakroon"],
   },
+    /* --------------------------------------------------------------------------------------------------------------- */
+
   {
     slug: "zakroon",
-    name: "Zakroon",
+    name: {
+      en: "Zakroon",
+      ar: "ذاكرون",
+    },
     shortDescription: {
       en: "An education-oriented digital product blending structured web access with mobile continuity for learners.",
       ar: "منتج رقمي تعليمي يجمع بين الوصول المنظم عبر الويب والاستمرارية على الموبايل للمتعلمين.",

@@ -142,7 +142,7 @@ export interface GalleryImage {
 
 export interface Project {
   slug: string;
-  name: string;
+  name: LocalizedValue<string>;
   shortDescription: LocalizedValue<string>;
   detailedDescription: LocalizedValue<string>;
   categoryKey: ProjectCategory;

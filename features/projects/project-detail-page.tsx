@@ -59,7 +59,7 @@ export function ProjectDetailPage({
   return (
     <div className="pb-20">
       <PageHero
-        eyebrow={project.name}
+        eyebrow={localize(project.name, locale)}
         title={localize(project.shortDescription, locale)}
         description={localize(project.detailedDescription, locale)}
         contentClassName="xl:ps-3"
@@ -100,7 +100,7 @@ export function ProjectDetailPage({
             <div className="relative aspect-video">
               <Image
                 src={project.coverImage}
-                alt={project.name}
+                alt={localize(project.name, locale)}
                 fill
                 className="object-cover transition-transform duration-700 hover:scale-[1.02]"
                 sizes="(max-width: 1200px) 100vw, 42vw"
@@ -280,7 +280,7 @@ export function ProjectDetailPage({
 
       <div className="mx-auto max-w-7xl px-6 py-6 md:px-10">
         <CtaPanel
-          eyebrow={project.name}
+          eyebrow={localize(project.name, locale)}
           title={
             locale === "en"
               ? "Want a case-study level execution for your own product?"

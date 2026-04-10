@@ -43,7 +43,7 @@ export function ProjectCard({
         <div className="relative aspect-video overflow-hidden border-b border-white/10 bg-black/20">
           <Image
             src={project.coverImage}
-            alt={project.name}
+            alt={localize(project.name, locale)}
             fill
             className="object-cover transition-transform duration-700 group-hover:scale-[1.03]"
             sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
@@ -59,7 +59,7 @@ export function ProjectCard({
         <div className="flex flex-1 flex-col gap-6 p-6 md:p-7">
           <div className="space-y-3.5">
             <h3 className="text-2xl font-semibold leading-[1.22] tracking-tight text-white md:text-[2rem]">
-              {project.name}
+              {localize(project.name, locale)}
             </h3>
             <p className="text-base leading-8 text-white/68">
               {localize(project.shortDescription, locale)}

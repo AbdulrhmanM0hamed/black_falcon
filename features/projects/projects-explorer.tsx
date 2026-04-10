@@ -54,7 +54,7 @@ export function ProjectsExplorer({
   const filteredProjects = projects.filter((project) => {
     const matchesSearch =
       deferredSearch.length === 0 ||
-      project.name.toLowerCase().includes(deferredSearch) ||
+      localize(project.name, locale).toLowerCase().includes(deferredSearch) ||
       project.techStack.join(" ").toLowerCase().includes(deferredSearch);
 
     const matchesService =
