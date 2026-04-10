@@ -29,33 +29,51 @@ export function ImageGallery({
   return (
     <>
       <div className="grid gap-6 md:grid-cols-2">
-        {images.map((image, index) => (
-          <motion.div
-            key={index}
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ delay: index * 0.1 }}
-            className="group relative cursor-pointer overflow-hidden rounded-[2rem] border border-white/10 bg-white/[0.04]"
-            onClick={() => setSelectedIndex(index)}
-          >
-            <div className="relative aspect-video">
-              <Image
-                src={image.src}
-                alt={localize(image.alt, locale)}
-                fill
-                className="object-cover transition-transform duration-700 group-hover:scale-[1.03]"
-                sizes="(max-width: 768px) 100vw, 50vw"
-              />
-              <div className="absolute inset-0 bg-black/20 opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
-              <div className="absolute inset-0 flex items-center justify-center opacity-0 transition-all duration-300 group-hover:opacity-100">
-                <div className="rounded-full bg-white/10 p-4 backdrop-blur-md">
-                  <Maximize2 className="h-6 w-6 text-white" />
-                </div>
+        {images.slice(0, 4).map((image, index) => {
+          const isLastVisible = index === 3;
+          const hasMore = images.length > 4;
+          const remainingCount = images.length - 3;
+
+          return (
+            <motion.div
+              key={index}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: index * 0.1 }}
+              className="group relative cursor-pointer overflow-hidden rounded-[2rem] border border-white/10 bg-white/[0.04]"
+              onClick={() => setSelectedIndex(index)}
+            >
+              <div className="relative aspect-video">
+                <Image
+                  src={image.src}
+                  alt={localize(image.alt, locale)}
+                  fill
+                  className="object-cover transition-transform duration-700 group-hover:scale-[1.03]"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
+                
+                {/* Last slot overlay if more images exist */}
+                {isLastVisible && hasMore ? (
+                  <div className="absolute inset-0 z-10 flex items-center justify-center bg-black/60 backdrop-blur-[2px]">
+                    <div className="text-4xl font-bold text-white">
+                      +{remainingCount}
+                    </div>
+                  </div>
+                ) : (
+                  <>
+                    <div className="absolute inset-0 bg-black/20 opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
+                    <div className="absolute inset-0 flex items-center justify-center opacity-0 transition-all duration-300 group-hover:opacity-100">
+                      <div className="rounded-full bg-white/10 p-4 backdrop-blur-md">
+                        <Maximize2 className="h-6 w-6 text-white" />
+                      </div>
+                    </div>
+                  </>
+                )}
               </div>
-            </div>
-          </motion.div>
-        ))}
+            </motion.div>
+          );
+        })}
       </div>
 
       <AnimatePresence>
@@ -109,7 +127,7 @@ export function ImageGallery({
                   handlePrev();
                 }}
               >
-                <ChevronLeft className="h-8 w-8" />
+                <ChevronRight className="h-8 w-8" />
               </button>
               <button
                 className="rounded-full bg-white/5 p-4 text-white backdrop-blur-md transition-colors hover:bg-white/10"
@@ -118,7 +136,7 @@ export function ImageGallery({
                   handleNext();
                 }}
               >
-                <ChevronRight className="h-8 w-8" />
+                <ChevronLeft className="h-8 w-8" />
               </button>
             </div>
 
