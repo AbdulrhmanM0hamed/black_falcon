@@ -22,7 +22,7 @@ export const ar: Dictionary = {
     learnMore: "اعرف المزيد",
     discussProject: "ناقش مشروعك",
     startConversation: "ابدأ المحادثة",
-    readCaseStudy: "اقرأ دراسة الحالة",
+    readCaseStudy: "اقرأ عرض المشروع",
     liveWebsite: "الموقع المباشر",
     googlePlay: "Google Play",
     appStore: "App Store",

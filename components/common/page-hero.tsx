@@ -31,13 +31,13 @@ export function PageHero({
 }) {
   return (
     <section className={cn("relative overflow-hidden pt-12 md:pt-16", className)}>
-      <div className="mx-auto grid max-w-7xl gap-8 px-6 md:px-10 xl:grid-cols-[1.05fr_0.95fr]">
+      <div className="mx-auto grid max-w-7xl gap-8 px-6 md:px-10 xl:grid-cols-[0.95fr_1.05fr] xl:items-start">
         <div className={cn("space-y-8", contentClassName)}>
           <Reveal>
             <Badge>{eyebrow}</Badge>
           </Reveal>
           <Reveal delay={0.05} className="space-y-6">
-            <h1 className="max-w-4xl text-balance text-3xl font-semibold leading-[1.24] tracking-tight text-white md:text-[3.5rem] md:leading-[1.2] xl:text-[4.2rem] xl:leading-[1.16]">
+            <h1 className="max-w-4xl text-balance text-2xl font-semibold leading-[1.24] tracking-tight text-white md:text-[3rem] md:leading-[1.2] xl:text-[3.6rem] xl:leading-[1.16]">
               {title}
             </h1>
             <p className="max-w-2xl text-base leading-8 text-white/68 md:text-lg">

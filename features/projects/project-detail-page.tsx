@@ -2,6 +2,7 @@ import Image from "next/image";
 
 import { CtaPanel } from "@/components/common/cta-panel";
 import { PageHero } from "@/components/common/page-hero";
+import { ImageGallery } from "@/components/common/image-gallery";
 import { ProjectCard } from "@/components/common/project-card";
 import { Button } from "@/components/ui/button";
 import { siteSettings } from "@/data/site";
@@ -53,9 +54,6 @@ export function ProjectDetailPage({
           icon: "/icons/app_store_icon.png",
         }
       : null,
-    project.links.caseStudy
-      ? { href: project.links.caseStudy, label: dictionary.common.caseStudy }
-      : null,
   ].filter(Boolean) as Array<{ href: string; label: string; icon?: string }>;
 
   return (
@@ -99,16 +97,16 @@ export function ProjectDetailPage({
         }))}
         media={
           <div className="overflow-hidden rounded-[2.2rem] border border-white/10 bg-white/[0.04] shadow-[0_22px_70px_rgba(0,0,0,0.2)]">
-            <div className="relative aspect-[16/12] bg-[radial-gradient(circle_at_20%_18%,rgba(255,162,64,0.14),transparent_32%),linear-gradient(180deg,rgba(255,255,255,0.05),rgba(255,255,255,0.02))]">
+            <div className="relative aspect-video">
               <Image
                 src={project.coverImage}
                 alt={project.name}
                 fill
-                className="object-contain p-5 md:p-6"
+                className="object-cover transition-transform duration-700 hover:scale-[1.02]"
                 sizes="(max-width: 1200px) 100vw, 42vw"
                 priority
               />
-              <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(0,0,0,0.04),rgba(0,0,0,0.34))]" />
+              <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/40" />
             </div>
           </div>
         }
@@ -183,10 +181,10 @@ export function ProjectDetailPage({
                   key={item.title.en}
                   className="rounded-[1.5rem] border border-white/10 bg-black/20 p-6"
                 >
-                  <h3 className="text-[1.75rem] font-semibold leading-[1.24] text-white">
+                  <h3 className="text-[1.5rem] font-semibold leading-[1.24] text-white">
                     {localize(item.title, locale)}
                   </h3>
-                  <p className="mt-4 text-base leading-8 text-white/66">
+                  <p className="mt-4 text-[0.95rem] leading-7 text-white/66">
                     {localize(item.description, locale)}
                   </p>
                 </div>
@@ -203,10 +201,10 @@ export function ProjectDetailPage({
                   key={item.title.en}
                   className="rounded-[1.5rem] border border-white/10 bg-black/20 p-6"
                 >
-                  <h3 className="text-[1.75rem] font-semibold leading-[1.24] text-white">
+                  <h3 className="text-[1.5rem] font-semibold leading-[1.24] text-white">
                     {localize(item.title, locale)}
                   </h3>
-                  <p className="mt-4 text-base leading-8 text-white/66">
+                  <p className="mt-4 text-[0.95rem] leading-7 text-white/66">
                     {localize(item.description, locale)}
                   </p>
                 </div>
@@ -222,27 +220,10 @@ export function ProjectDetailPage({
             {locale === "en" ? "Project gallery" : "معرض المشروع"}
           </div>
           <h2 className="mt-4 text-3xl font-semibold leading-[1.22] tracking-tight text-white md:text-4xl">
-            {locale === "en" ? "Visual context around the case study" : "سياق بصري يكمّل دراسة الحالة"}
+            {locale === "en" ? "Visual context around the case study" : "سياق بصري يكمّل عرض المشروع"}
           </h2>
         </div>
-        <div className="grid gap-6 xl:grid-cols-3">
-          {project.gallery.map((image) => (
-            <div
-              key={typeof image.src === "string" ? image.src : image.src.src}
-              className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/[0.04] shadow-[0_18px_52px_rgba(0,0,0,0.14)]"
-            >
-              <div className="relative aspect-[4/3]">
-                <Image
-                  src={image.src}
-                  alt={localize(image.alt, locale)}
-                  fill
-                  className="object-cover"
-                  sizes="(max-width: 1280px) 100vw, 33vw"
-                />
-              </div>
-            </div>
-          ))}
-        </div>
+        <ImageGallery images={project.gallery} locale={locale} />
       </section>
 
       <section className="mx-auto max-w-7xl px-6 py-6 md:px-10">
