@@ -38,7 +38,8 @@ export function SiteFooter({
       <div className="mx-auto grid max-w-7xl gap-12 px-6 py-16 md:px-10 xl:grid-cols-[1.2fr_0.8fr_0.8fr_0.8fr]">
         <div className="space-y-5">
           <Link href={withLocale(locale)} className="group relative inline-flex items-center">
-            <div className="absolute inset-x-[-40%] inset-y-[-20%] -z-10 bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.28)_0%,transparent_75%)] blur-3xl opacity-80" />
+            <div className="absolute left-1/2 top-1/2 h-[140%] w-[200%] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#ffa240]/6 blur-[40px]" />
+            <div className="absolute left-1/2 top-1/2 h-[100%] w-[160%] -translate-x-1/2 -translate-y-1/2 rounded-full bg-white/5 blur-[28px]" />
             <Image
               src="/logo.svg"
               alt="Black Falcon"

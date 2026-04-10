@@ -74,7 +74,8 @@ export function SiteHeader({
         className="mx-auto flex max-w-7xl items-center justify-between rounded-full border px-4 py-3 md:px-6"
       >
         <Link href={withLocale(locale)} className="group relative flex items-center transition-all active:scale-95">
-          <div className="absolute inset-x-[-30%] inset-y-[-10%] -z-10 bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.22)_0%,transparent_75%)] blur-2xl" />
+          <div className="absolute left-1/2 top-1/2 h-[140%] w-[200%] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#ffa240]/8 blur-[40px]" />
+          <div className="absolute left-1/2 top-1/2 h-[100%] w-[160%] -translate-x-1/2 -translate-y-1/2 rounded-full bg-white/5 blur-[28px]" />
           <Image
             src="/logo.svg"
             alt="Black Falcon"

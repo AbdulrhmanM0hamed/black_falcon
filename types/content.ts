@@ -61,6 +61,7 @@ export type IndustryKey =
   | "events"
   | "real-estate"
   | "mobility"
+  | "lifestyle"
   | "business";
 
 export interface TrustSignal {

@@ -7,6 +7,90 @@ import moazezWebCover from "@/public/projects/covers/Moazez_website.png";
 import mshwarCover from "@/public/projects/covers/Mshwar.png";
 import multqiElnorCover from "@/public/projects/covers/multqi_elnor.png";
 import zakroonCover from "@/public/projects/covers/zakroon.png";
+import dalilkPng1 from "@/public/projects/dlalik/png1.webp";
+import dalilkPng2 from "@/public/projects/dlalik/png2.webp";
+import dalilkPng3 from "@/public/projects/dlalik/png3.webp";
+import dalilkPng4 from "@/public/projects/dlalik/png4.webp";
+import dalilkPng5 from "@/public/projects/dlalik/png5.webp";
+import dalilkPng6 from "@/public/projects/dlalik/png6.webp";
+import reefPng1 from "@/public/projects/reef_coffe/png1.webp";
+import reefPng2 from "@/public/projects/reef_coffe/png2.webp";
+import reefPng3 from "@/public/projects/reef_coffe/png3.webp";
+import reefPng4 from "@/public/projects/reef_coffe/png4.webp";
+import reefPng5 from "@/public/projects/reef_coffe/png5.webp";
+import reefPng6 from "@/public/projects/reef_coffe/png6.webp";
+import reefPng7 from "@/public/projects/reef_coffe/png7.webp";
+import reefPng8 from "@/public/projects/reef_coffe/png8.webp";
+import reefPng9 from "@/public/projects/reef_coffe/png9.webp";
+import reefPng10 from "@/public/projects/reef_coffe/png10.webp";
+import reefPng11 from "@/public/projects/reef_coffe/png11.webp";
+import multqiPng1 from "@/public/projects/multqi/png1.webp";
+import multqiPng2 from "@/public/projects/multqi/png2.webp";
+import multqiPng3 from "@/public/projects/multqi/png3.webp";
+import multqiPng4 from "@/public/projects/multqi/png4.webp";
+import multqiPng5 from "@/public/projects/multqi/png5.webp";
+import multqiPng6 from "@/public/projects/multqi/png6.webp";
+import multqiPng7 from "@/public/projects/multqi/png7.webp";
+import multqiPng8 from "@/public/projects/multqi/png8.webp";
+import dermaPng1 from "@/public/projects/derma ai/png1.webp";
+import dermaPng2 from "@/public/projects/derma ai/png2.webp";
+import dermaPng3 from "@/public/projects/derma ai/png3.webp";
+import dermaPng4 from "@/public/projects/derma ai/png4.webp";
+import dermaPng5 from "@/public/projects/derma ai/png5.webp";
+import dermaPng6 from "@/public/projects/derma ai/png6.webp";
+import dermaPng7 from "@/public/projects/derma ai/png7.webp";
+
+// Bashra Web
+import bashraPng1 from "@/public/projects/bashra web/png1.webp";
+import bashraPng2 from "@/public/projects/bashra web/png2.webp";
+import bashraPng3 from "@/public/projects/bashra web/png3.webp";
+import bashraPng4 from "@/public/projects/bashra web/png4.webp";
+import bashraPng5 from "@/public/projects/bashra web/png5.webp";
+import bashraPng6 from "@/public/projects/bashra web/png6.webp";
+import bashraPng7 from "@/public/projects/bashra web/png7.webp";
+
+// Healtho Gym
+import healthoPng1 from "@/public/projects/heltho_gym/png1.webp";
+import healthoPng2 from "@/public/projects/heltho_gym/png2.webp";
+import healthoPng3 from "@/public/projects/heltho_gym/png3.webp";
+import healthoPng4 from "@/public/projects/heltho_gym/png4.webp";
+import healthoPng5 from "@/public/projects/heltho_gym/png5.webp";
+import healthoPng6 from "@/public/projects/heltho_gym/png6.webp";
+import healthoPng7 from "@/public/projects/heltho_gym/png7.webp";
+import healthoPng8 from "@/public/projects/heltho_gym/png8.webp";
+import healthoPng9 from "@/public/projects/heltho_gym/png9.webp";
+
+// Moazez App
+import moazezAppPng1 from "@/public/projects/moazez App/png1.webp";
+import moazezAppPng2 from "@/public/projects/moazez App/png2.webp";
+import moazezAppPng3 from "@/public/projects/moazez App/png3.webp";
+import moazezAppPng4 from "@/public/projects/moazez App/png4.webp";
+import moazezAppPng5 from "@/public/projects/moazez App/png5.webp";
+import moazezAppPng6 from "@/public/projects/moazez App/png6.webp";
+import moazezAppPng7 from "@/public/projects/moazez App/png7.webp";
+import moazezAppPng8 from "@/public/projects/moazez App/png8.webp";
+
+// Moazez Web
+import moazezWebPng1 from "@/public/projects/moazez web/png1.webp";
+import moazezWebPng2 from "@/public/projects/moazez web/png2.webp";
+import moazezWebPng3 from "@/public/projects/moazez web/png3.webp";
+import moazezWebPng4 from "@/public/projects/moazez web/png4.webp";
+import moazezWebPng5 from "@/public/projects/moazez web/png5.webp";
+import moazezWebPng6 from "@/public/projects/moazez web/png6.webp";
+import moazezWebPng7 from "@/public/projects/moazez web/png7.webp";
+import moazezWebPng8 from "@/public/projects/moazez web/png8.webp";
+
+// Mshwar
+import mshwarPng1 from "@/public/projects/mshwar/png1.webp";
+import mshwarPng2 from "@/public/projects/mshwar/png2.webp";
+import mshwarPng3 from "@/public/projects/mshwar/png3.webp";
+import mshwarPng4 from "@/public/projects/mshwar/png4.webp";
+import mshwarPng5 from "@/public/projects/mshwar/png5.webp";
+import mshwarPng6 from "@/public/projects/mshwar/png6.webp";
+import mshwarPng7 from "@/public/projects/mshwar/png7.webp";
+import mshwarPng8 from "@/public/projects/mshwar/png8.webp";
+import mshwarPng9 from "@/public/projects/mshwar/png9.webp";
+import mshwarPng10 from "@/public/projects/mshwar/png10.webp";
 
 import type { Project } from "@/types/content";
 
@@ -37,27 +121,13 @@ export const projects: Project[] = [
     },
     coverImage: bashraAiCover,
     gallery: [
-      {
-        src: bashraAiCover,
-        alt: {
-          en: "Bashra AI brand cover",
-          ar: "غلاف مشروع Bashra AI",
-        },
-      },
-      {
-        src: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=1600&q=80",
-        alt: {
-          en: "Premium beauty consultation visual",
-          ar: "مشهد بصري لتجربة استشارة تجميل راقية",
-        },
-      },
-      {
-        src: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=1600&q=80",
-        alt: {
-          en: "Healthcare technology workflow visual",
-          ar: "مشهد يعكس تدفقاً تقنياً في قطاع الرعاية",
-        },
-      },
+      { src: bashraPng1, alt: { en: "Home Screen", ar: "الشاشة الرئيسية" } },
+      { src: bashraPng2, alt: { en: "Services Page", ar: "صفحة الخدمات" } },
+      { src: bashraPng3, alt: { en: "Consultation Funnel", ar: "قمع الاستشارات" } },
+      { src: bashraPng4, alt: { en: "Product Detail", ar: "تفاصيل المنتج" } },
+      { src: bashraPng5, alt: { en: "Care Roadmap", ar: "خارطة طريق الرعاية" } },
+      { src: bashraPng6, alt: { en: "Mobile App View", ar: "عرض تطبيق الموبايل" } },
+      { src: bashraPng7, alt: { en: "Contact and Map", ar: "الاتصال والخريطة" } },
     ],
     serviceSlugs: [
       "ui-ux-design",
@@ -177,174 +247,6 @@ export const projects: Project[] = [
     featured: true,
   },
 
-  /* --------------------------------------------------------------------------------------------------------------- */
-
-  {
-    slug: "dalilk",
-    name: {
-      en: "Dalilk",
-      ar: "دلالك",
-    },
-    shortDescription: {
-      en: "A service discovery platform with strong information architecture, filtering, and trust-driven content.",
-      ar: "منصة لاكتشاف الخدمات بهندسة معلومات قوية وفلاتر واضحة ومحتوى يعزز الثقة.",
-    },
-    detailedDescription: {
-      en: "Dalilk was structured as a discovery-focused web platform that needed to balance searchability, clarity, and conversion. The product had to feel useful at first glance while still handling content density gracefully.",
-      ar: "صُمم Dalilk كمنصة ويب تركز على الاكتشاف، وكان مطلوباً أن توازن بين سهولة البحث والوضوح والتحويل. كما كان يجب أن تكون مفيدة من أول نظرة مع التعامل مع كثافة المحتوى بسلاسة.",
-    },
-    categoryKey: "platform",
-    category: {
-      en: "Discovery platform",
-      ar: "منصة اكتشاف",
-    },
-    industryKey: "business",
-    industry: {
-      en: "Business services",
-      ar: "خدمات الأعمال",
-    },
-    coverImage: dalilkCover,
-    gallery: [
-      {
-        src: dalilkCover,
-        alt: {
-          en: "Dalilk platform cover",
-          ar: "غلاف منصة Dalilk",
-        },
-      },
-      {
-        src: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1600&q=80",
-        alt: {
-          en: "Business data browsing interface visual",
-          ar: "صورة توحي بواجهة تصفح بيانات أعمال",
-        },
-      },
-      {
-        src: "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1600&q=80",
-        alt: {
-          en: "Collaborative operations planning visual",
-          ar: "صورة تعكس تخطيطاً تعاونياً للعمليات",
-        },
-      },
-    ],
-    serviceSlugs: [
-      "web-system-development",
-      "website-design",
-      "ui-ux-design",
-      "devops-server-management",
-    ],
-    techStack: ["Next.js", "TypeScript", "Search indexing", "CMS-ready content model", "Vercel"],
-    features: {
-      en: [
-        "Multi-criteria filtering",
-        "Structured listing detail pages",
-        "Search-first information architecture",
-        "Content modules for editorial updates",
-        "Responsive discovery flow",
-      ],
-      ar: [
-        "فلاتر متعددة المعايير",
-        "صفحات تفاصيل منظمة للعناصر",
-        "هندسة معلومات مبنية على البحث",
-        "وحدات محتوى قابلة للتحديث",
-        "تجربة اكتشاف متجاوبة",
-      ],
-    },
-    challenges: [
-      {
-        title: {
-          en: "Avoiding content overload",
-          ar: "تجنب إرهاق المستخدم بالمحتوى",
-        },
-        description: {
-          en: "The product had to present many options without feeling crowded or hard to navigate.",
-          ar: "كان على المنتج عرض عدد كبير من الخيارات دون أن يبدو مزدحماً أو صعب التصفح.",
-        },
-      },
-      {
-        title: {
-          en: "Making trust visible",
-          ar: "إظهار الثقة بصرياً",
-        },
-        description: {
-          en: "Users needed quick signals around relevance, credibility, and next actions.",
-          ar: "كان المستخدم بحاجة إلى إشارات سريعة توضح الملاءمة والمصداقية والخطوة التالية.",
-        },
-      },
-    ],
-    solutions: [
-      {
-        title: {
-          en: "Progressive discovery layers",
-          ar: "طبقات اكتشاف تدريجية",
-        },
-        description: {
-          en: "We organized the browsing experience so users could move from broad exploration to qualified detail naturally.",
-          ar: "نظمنا التجربة بحيث ينتقل المستخدم من الاستكشاف العام إلى التفاصيل المؤهلة بشكل طبيعي.",
-        },
-      },
-      {
-        title: {
-          en: "Conversion-ready page structure",
-          ar: "هيكل صفحات جاهز للتحويل",
-        },
-        description: {
-          en: "Every result detail page was structured around proof, CTA logic, and friction reduction.",
-          ar: "صممنا صفحات التفاصيل حول البراهين والدعوات الواضحة وتقليل الاحتكاك.",
-        },
-      },
-    ],
-    results: [
-      {
-        value: "2.1x",
-        label: {
-          en: "deeper session engagement",
-          ar: "زيادة عمق التفاعل",
-        },
-        description: {
-          en: "The improved structure encouraged users to move past the first listing layer.",
-          ar: "شجعت البنية الجديدة المستخدمين على التعمق بعد طبقة التصفح الأولى.",
-        },
-      },
-      {
-        value: "-31%",
-        label: {
-          en: "navigation confusion",
-          ar: "انخفاض الالتباس في التصفح",
-        },
-        description: {
-          en: "Stakeholder testing showed smoother movement through categories and results.",
-          ar: "أظهرت اختبارات المراجعة سلاسة أعلى في الانتقال بين الفئات والنتائج.",
-        },
-      },
-      {
-        value: "10 weeks",
-        label: {
-          en: "delivery window",
-          ar: "فترة التنفيذ",
-        },
-        description: {
-          en: "A fast execution cycle covered UX definition, premium UI, and frontend implementation.",
-          ar: "غطت دورة سريعة تعريف UX والتصميم الراقي وتنفيذ الواجهة.",
-        },
-      },
-    ],
-    timeline: {
-      en: "10-week platform launch",
-      ar: "إطلاق المنصة خلال 10 أسابيع",
-    },
-    projectType: "website",
-    links: {
-      website: "https://dalilk.example.com",
-      caseStudy: "https://behance.net/gallery/blackfalcon-dalilk",
-    },
-    heroAccent: "#f59e0b",
-    relatedProjectSlugs: ["moazez-web", "multqi-elnor", "zakroon"],
-    featured: true,
-  },
-
-    /* --------------------------------------------------------------------------------------------------------------- */
-
   {
     slug: "derma-ai",
     name: {
@@ -352,165 +254,265 @@ export const projects: Project[] = [
       ar: "ديرما AI",
     },
     shortDescription: {
-      en: "A diagnostic guidance concept for dermatology services spanning web onboarding and mobile continuity.",
-      ar: "مفهوم منتج للإرشاد التشخيصي في الجلدية يجمع بين Onboarding الويب واستمرارية الموبايل.",
+      en: "An AI-powered dermatology platform combining advanced image analysis with professional medical consultations.",
+      ar: "تطبيق موبايل متخصص في الأمراض الجلدية يجمع بين الذكاء الاصطناعي والخبرة البشرية لتوفير استشارات دقيقة.",
     },
     detailedDescription: {
-      en: "Derma AI explored how an AI-informed dermatology product could feel clinically trustworthy while remaining usable for everyday consumers. The solution balanced a premium interface language with disciplined product flow and health-tech positioning.",
-      ar: "استكشف مشروع Derma AI كيف يمكن لمنتج جلدية مدعوم بالذكاء الاصطناعي أن يبدو موثوقاً طبياً وسهل الاستخدام للمستخدم اليومي. وازن الحل بين لغة واجهة راقية وتدفق منتج منضبط وتموضع صحي تقني.",
+      en: "Derma AI facilitates rapid access to dermatological care by integrating TensorFlow-based image analysis with a seamless remote consultation system. Users can upload photos for initial AI screening and connect with certified doctors for formal diagnosis and treatment plans securely.",
+      ar: "ديرما AI هو تطبيق يهدف إلى تسهيل الوصول إلى الاستشارات الطبية الجلدية. يوفّر التطبيق منصة تتيح للمستخدمين استشارة أطباء معتمدين، وتحليل صور الحالات الجلدية باستخدام الذكاء الاصطناعي للحصول على تشخيص أولي ومقترحات علاجية دقيقة وسريعة.",
     },
     categoryKey: "ai",
     category: {
-      en: "Clinical AI experience",
-      ar: "تجربة ذكاء اصطناعي علاجية",
+      en: "AI Health Product",
+      ar: "منتج صحي ذكاء اصطناعي",
     },
     industryKey: "healthcare",
     industry: {
-      en: "Healthcare",
-      ar: "الرعاية الصحية",
+      en: "Dermatology & Healthcare",
+      ar: "الرعاية الصحية والجلدية",
     },
     coverImage: dermaAiCover,
     gallery: [
-      {
-        src: dermaAiCover,
-        alt: {
-          en: "Derma AI project cover",
-          ar: "غلاف مشروع Derma AI",
-        },
-      },
-      {
-        src: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1600&q=80",
-        alt: {
-          en: "Medical consultation visual",
-          ar: "مشهد يعكس استشارة طبية",
-        },
-      },
-      {
-        src: "https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&w=1600&q=80",
-        alt: {
-          en: "Mobile healthcare product visual",
-          ar: "مشهد يعكس منتج رعاية صحية على الموبايل",
-        },
-      },
+      { src: dermaPng1, alt: { en: "Home Screen", ar: "الشاشة الرئيسية" } },
+      { src: dermaPng2, alt: { en: "Consultation Interface", ar: "واجهة الاستشارة" } },
+      { src: dermaPng3, alt: { en: "AI Analysis", ar: "تحليل الذكاء الاصطناعي" } },
+      { src: dermaPng4, alt: { en: "Doctor Profiles", ar: "ملفات الأطباء" } },
+      { src: dermaPng5, alt: { en: "Secure Chat", ar: "الدردشة الآمنة" } },
+      { src: dermaPng6, alt: { en: "Medical Reports", ar: "التقارير الطبية" } },
+      { src: dermaPng7, alt: { en: "Booking System", ar: "نظام الحجز" } },
     ],
     serviceSlugs: [
-      "ui-ux-design",
       "mobile-application-development",
+      "ui-ux-design",
       "web-system-development",
       "software-testing-qa",
     ],
-    techStack: ["Next.js", "Flutter", "TypeScript", "Healthcare workflows", "Analytics"],
+    techStack: ["C#", ".NET", "Flutter", "MS SQL Server", "REST API", "TensorFlow", "PyTorch"],
     features: {
       en: [
-        "Clinical intake flow",
-        "Personalized guidance states",
-        "Mobile tracking companion",
-        "Trust-driven interface language",
-        "Health-oriented content modules",
+        "AI-driven skin condition analysis",
+        "Virtual remote consultation system",
+        "Certified doctor booking and scheduling",
+        "Secure end-to-end medical data encryption",
+        "Integrated medical history tracking",
       ],
       ar: [
-        "مسار إدخال معلومات علاجي",
-        "حالات إرشاد شخصية",
-        "تطبيق متابعة على الموبايل",
-        "لغة واجهة تعزز الثقة",
-        "وحدات محتوى موجهة للصحة",
+        "تحليل الحالات الجلدية بالذكاء الاصطناعي",
+        "نظام استشارات طبية عن بعد",
+        "حجز وجدولة المواعيد مع أطباء معتمدين",
+        "تشفير كامل للبيانات الطبية والمعلومات الصحية",
+        "تتبع سجل التاريخ الطبي المتكامل",
       ],
     },
     challenges: [
       {
-        title: {
-          en: "Sensitive product positioning",
-          ar: "تموضع منتج حساس",
-        },
+        title: { en: "AI Diagnostic Accuracy", ar: "دقة التشخيص بالذكاء الاصطناعي" },
         description: {
-          en: "The product needed to communicate care and accuracy without making promises it could not substantiate.",
-          ar: "كان على المنتج أن يوصل العناية والدقة دون مبالغات أو وعود غير واقعية.",
+          en: "Ensuring reliable results by training the model on extensive medical datasets across various skin types.",
+          ar: "ضرورة تدريب النظام على مجموعة كبيرة من الصور والحالات الجلدية الموثوقة للوصول إلى نتائج دقيقة.",
         },
       },
       {
-        title: {
-          en: "Balancing reassurance and speed",
-          ar: "الموازنة بين الطمأنة والسرعة",
-        },
+        title: { en: "Medical Data Privacy", ar: "حماية بيانات المستخدم الطبية" },
         description: {
-          en: "Users needed confidence-building detail, but the interaction still had to feel lightweight.",
-          ar: "احتاج المستخدم إلى تفاصيل تبني الثقة مع بقاء التفاعل خفيفاً وسريعاً.",
+          en: "Implementing rigorous encryption and international health standard compliance for data protection.",
+          ar: "خصوصية المعلومات الصحية تتطلب تشفيرًا صارمًا والتزامًا بالمعايير الدولية لحماية البيانات.",
+        },
+      },
+      {
+        title: { en: "Universal Accessibility", ar: "سهولة الاستخدام لمختلف الفئات" },
+        description: {
+          en: "Designing an intuitive UX/UI that caters to users of all age groups and technical backgrounds.",
+          ar: "تطوير تجربة مستخدم بسيطة وواضحة تناسب مختلف الفئات العمرية وغير المتخصصين تقنياً.",
         },
       },
     ],
     solutions: [
       {
-        title: {
-          en: "Precision-led visual hierarchy",
-          ar: "هرمية بصرية دقيقة",
-        },
+        title: { en: "Advanced Image Algorithms", ar: "خوارزميات تحليل صور متقدمة" },
         description: {
-          en: "We used spacing, typography, and structured cards to make the experience feel careful and credible.",
-          ar: "استخدمنا المساحات والخطوط والبطاقات المنظمة ليبدو المنتج حذراً وموثوقاً.",
+          en: "Utilized TensorFlow and PyTorch for high-precision skin texture and anomaly detection.",
+          ar: "دمج خوارزميات تحليل الصور المتقدمة باستخدام مكتبات TensorFlow وPyTorch لتحليل الحالات بدقة.",
         },
       },
       {
-        title: {
-          en: "Guided mobile continuity",
-          ar: "استمرارية موجّهة على الموبايل",
-        },
+        title: { en: "Secure Booking Ecosystem", ar: "نظام حجز واستشارة افتراضية" },
         description: {
-          en: "The app framed next steps, follow-ups, and progress in a calm, clear manner.",
-          ar: "قدّم التطبيق الخطوات التالية والمتابعات والتقدّم بطريقة هادئة وواضحة.",
+          en: "Integrated video/text consultation modules with robust schedule logic for doctor-patient sync.",
+          ar: "واجهة للمستخدم لاختيار الطبيب وتحديد الموعد وإجراء الاستشارة عبر الفيديو أو النص بسلاسة.",
+        },
+      },
+      {
+        title: { en: "AES Encryption Infrastructure", ar: "تشفير البيانات وتخزين آمن" },
+        description: {
+          en: "Applied HTTPS and AES-256 protocols to ensure absolute privacy for medical records.",
+          ar: "استخدام بروتوكولات HTTPS وAES لضمان حماية تامة للبيانات الطبية وتخزينها بأمان.",
         },
       },
     ],
     results: [
       {
-        value: "89%",
-        label: {
-          en: "test flow completion",
-          ar: "إكمال التدفق الاختباري",
-        },
+        value: "92%",
+        label: { en: "AI Accuracy", ar: "دقة الذكاء الاصطناعي" },
         description: {
-          en: "Prototype testing showed strong completion across the key intake journey.",
-          ar: "أظهرت الاختبارات إكمالاً مرتفعاً لمسار الإدخال الرئيسي.",
+          en: "Consistently high accuracy in initial screening for common skin conditions.",
+          ar: "دقة عالية في الكشف الأولي عن الحالات الجلدية الشائعة.",
         },
       },
       {
-        value: "-27%",
-        label: {
-          en: "decision hesitation",
-          ar: "انخفاض التردد",
-        },
+        value: "Secure",
+        label: { en: "Data Standards", ar: "معايير البيانات" },
         description: {
-          en: "Clearer guidance states reduced uncertainty during the consultation flow.",
-          ar: "قلّلت حالات الإرشاد الأوضح من التردد أثناء مسار الاستشارة.",
+          en: "Fully compliant with international healthcare privacy regulations.",
+          ar: "التزام كامل بمعايير الخصوصية الدولية في الرعاية الصحية.",
         },
       },
       {
-        value: "11 weeks",
-        label: {
-          en: "design-to-build cycle",
-          ar: "دورة التصميم إلى التنفيذ",
-        },
+        value: "Fast",
+        label: { en: "Consultation Access", ar: "سرعة الاستشارة" },
         description: {
-          en: "The full flow moved quickly while preserving clinical tone and product clarity.",
-          ar: "تحرك التنفيذ بسرعة مع الحفاظ على النبرة العلاجية ووضوح المنتج.",
+          en: "Drastic reduction in the time needed to get a professional dermatological opinion.",
+          ar: "تقليل كبير في الوقت اللازم لمقابلة الطبيب والحصول على تشخيص احترافي.",
         },
       },
     ],
-    timeline: {
-      en: "11-week concept-to-product cycle",
-      ar: "دورة من الفكرة إلى المنتج خلال 11 أسبوعاً",
-    },
+    timeline: { en: "Healthcare product rollout", ar: "إطلاق منتج الرعاية الصحية" },
     projectType: "website-mobile",
     links: {
       website: "https://derma-ai.example.com",
-      googlePlay: "https://play.google.com/store/apps/details?id=com.blackfalcon.dermaai",
-      appStore: "https://apps.apple.com/app/id650000002",
     },
-    heroAccent: "#ffb45e",
-    relatedProjectSlugs: ["bashra-ai", "healtho-gym", "zakroon"],
+    heroAccent: "#14b8a6",
+    relatedProjectSlugs: ["bashra-ai", "healtho-gym"],
+    featured: true,
   },
 
-    /* --------------------------------------------------------------------------------------------------------------- */
+  {
+    slug: "dalilk",
+    name: { en: "Dalilk", ar: "دلالك" },
+    shortDescription: {
+      en: "An integrated platform connecting clients with beauty salons and fashion houses seamlessly.",
+      ar: "منصة متكاملة لربط العميلات بصالونات التجميل ودور الأزياء بكل سهولة واحترافية.",
+    },
+    detailedDescription: {
+      en: "Dalilk is a comprehensive digital ecosystem featuring a mobile app and multi-role control panels for admins and stores.",
+      ar: "دلالك هو منظومة رقمية شاملة تضم تطبيقاً للموبايل ولوحة تحكم متطورة للإدارة والمتاجر.",
+    },
+    categoryKey: "platform",
+    category: { en: "Beauty & Fashion Platform", ar: "منصة تجميل وأزياء" },
+    industryKey: "lifestyle",
+    industry: { en: "Lifestyle & Services", ar: "نمط الحياة والخدمات" },
+    coverImage: dalilkPng1,
+    gallery: [
+      { src: dalilkPng1, alt: { en: "Home", ar: "الرئيسية" } },
+      { src: dalilkPng2, alt: { en: "Stores", ar: "المتاجر" } },
+      { src: dalilkPng3, alt: { en: "Stores", ar: "المتاجر" } },
+      { src: dalilkPng4, alt: { en: "Stores", ar: "المتاجر" } },
+      { src: dalilkPng5, alt: { en: "Stores", ar: "المتاجر" } },
+      { src: dalilkPng6, alt: { en: "Stores", ar: "المتاجر" } },
+  
+    ],
+    serviceSlugs: ["web-system-development", "mobile-application-development", "ui-ux-design"],
+    techStack: ["Flutter", "Laravel", "MySQL", "Google Maps API"],
+    features: {
+      en: ["Multi-role admin panel", "Appointment booking", "GPS Discovery"],
+      ar: ["لوحة تحكم متعددة الصلاحيات", "حجز مواعيد مباشر", "اكتشاف المتاجر عبر الخريطة"],
+    },
+    challenges: [
+      {
+        title: { en: "Permissions", ar: "الصلاحيات" },
+        description: { en: "Managing diverse user roles.", ar: "إدارة أدوار المستخدمين المتنوعة." }
+      }
+    ],
+    solutions: [
+      {
+        title: { en: "RBAC System", ar: "نظام RBAC" },
+        description: { en: "Role-based access control.", ar: "تحكم في الوصول مبني على الأدوار." }
+      }
+    ],
+    results: [
+      {
+        value: "Efficient",
+        label: { en: "Operations", ar: "العمليات" },
+        description: { en: "Streamlined booking flow.", ar: "مسار حجز مبسط." }
+      }
+    ],
+    timeline: { en: "Full development cycle", ar: "دورة تطوير كاملة" },
+    projectType: "website-mobile",
+    links: {
+      googlePlay: "https://play.google.com/store/apps/details?id=com.dallik.beautilly",
+      appStore: "https://apps.apple.com/us/app/دلالك/id6743017044",
+    },
+    heroAccent: "#f59e0b",
+    relatedProjectSlugs: ["bashra-ai", "reef-coffee"],
+  },
 
+  {
+    slug: "reef-coffee",
+    name: {
+      en: "Reef Coffee",
+      ar: "ريف القهوة",
+    },
+    shortDescription: {
+      en: "A specialized app for healthy meals and supplements with real-time tracking.",
+      ar: "تطبيق متخصص في تقديم الوجبات الصحية الجاهزة والمكملات مع خاصية التتبع اللحظي.",
+    },
+    detailedDescription: {
+      en: "Reef Coffee is a health-focused delivery platform providing daily fresh meals and a wide range of certified supplements.",
+      ar: "ريف القهوة هو تطبيق إلكتروني متخصص في تقديم الوجبات الصحية والمكملات الغذائية المعتمدة مع تتبع GPS.",
+    },
+    categoryKey: "commerce",
+    category: { en: "E-commerce & Delivery", ar: "تجارة إلكترونية وتوصيل" },
+    industryKey: "fitness",
+    industry: { en: "Health & Fitness", ar: "الصحة واللياقة" },
+    coverImage: reefPng1,
+    gallery: [
+      { src: reefPng1, alt: { en: "Home Screen", ar: "الشاشة الرئيسية" } },
+      { src: reefPng2, alt: { en: "Menu", ar: "القائمة" } },
+      { src: reefPng3, alt: { en: "Menu", ar: "القائمة" } },
+      { src: reefPng4, alt: { en: "Menu", ar: "القائمة" } },
+      { src: reefPng5, alt: { en: "Menu", ar: "القائمة" } },
+      { src: reefPng6, alt: { en: "Menu", ar: "القائمة" } },
+      { src: reefPng7, alt: { en: "Menu", ar: "القائمة" } },
+      { src: reefPng8, alt: { en: "Menu", ar: "القائمة" } },
+      { src: reefPng9, alt: { en: "Menu", ar: "القائمة" } },
+      { src: reefPng10, alt: { en: "Menu", ar: "القائمة" } },
+      { src: reefPng11, alt: { en: "Menu", ar: "القائمة" } },
+    ],
+    serviceSlugs: ["mobile-application-development", "ui-ux-design"],
+    techStack: ["Flutter", "Dart", "MySQL", "Supabase"],
+    features: {
+      en: ["Daily fresh meals", "GPS tracking", "Exclusive offers"],
+      ar: ["وجبات طازجة يومية", "تتبع GPS لحظي", "عروض حصرية"],
+    },
+    challenges: [
+      {
+        title: { en: "Inventory", ar: "المخزون" },
+        description: { en: "Managing daily stock updates.", ar: "إدارة تحديثات المخزون اليومية." }
+      }
+    ],
+    solutions: [
+      {
+        title: { en: "Dynamic CMS", ar: "إدارة محتوى ديناميكية" },
+        description: { en: "Specialized CMS for health data.", ar: "نظام إدارة محتوى متخصص للبيانات الصحية." }
+      }
+    ],
+    results: [
+      {
+        value: "99%",
+        label: { en: "Accuracy", ar: "الدقة" },
+        description: { en: "High precision in logistics.", ar: "دقة عالية في العمليات اللوجستية." }
+      }
+    ],
+    timeline: { en: "Mobile launch sprint", ar: "مسار إطلاق الموبايل" },
+    projectType: "mobile",
+    links: {
+      googlePlay: "https://play.google.com/store/apps/details?id=com.reef.coffee",
+      appStore: "https://apps.apple.com/us/app/ريف-القهوة/id6741211448",
+    },
+    heroAccent: "#10b981",
+    relatedProjectSlugs: ["healtho-gym", "bashra-ai"],
+    featured: true,
+  },
 
   {
     slug: "healtho-gym",
@@ -519,165 +521,153 @@ export const projects: Project[] = [
       ar: "هيلثو جيم",
     },
     shortDescription: {
-      en: "A fitness platform unifying membership journeys, performance content, and a companion mobile app.",
-      ar: "منصة لياقة توحّد رحلات الاشتراك والمحتوى والأداء مع تطبيق موبايل مكمّل.",
+      en: "A comprehensive fitness ecosystem for trainers and gyms to enhance trainee experience and coach communication.",
+      ar: "تطبيق ريادي متكامل للمدربين الشخصيين وصالات الألعاب لتحسين تجربة المتدرب وتعزيز تواصله مع المدرب.",
     },
     detailedDescription: {
-      en: "Healtho Gym needed to feel aspirational and operational at the same time. The product experience had to support membership conversion, routine engagement, and app-led retention without losing brand energy.",
-      ar: "احتاج Healtho Gym إلى الجمع بين الطموح والبعد التشغيلي في نفس الوقت. كان على التجربة دعم تحويل الاشتراكات والتفاعل مع الروتين والاحتفاظ عبر التطبيق دون فقدان طاقة العلامة.",
+      en: "Healtho Gym is a professional platform designed for gyms and personal trainers. It bridges the gap between coaching and training by providing daily workout plans, muscle-specific exercise libraries, and interactive daily tips. The platform features a robust admin dashboard for trainers to manage content and challenges, ensuring high user retention and goal-driven performance tracking.",
+      ar: "هيلثو جيم هو تطبيق رياضي متكامل صُمم خصيصًا للمدربين الشخصيين وصالات الألعاب الرياضية، بهدف تحسين تجربة المتدرب، وتحفيزه على الاستمرارية، وتعزيز تواصله مع المدرب بشكل يومي من خلال خطط تمارين مخصصة وتفاعل لحظي.",
     },
     categoryKey: "platform",
     category: {
-      en: "Fitness platform",
-      ar: "منصة لياقة",
+      en: "Fitness Platform",
+      ar: "منصة لياقة بدنية",
     },
     industryKey: "fitness",
     industry: {
-      en: "Fitness & wellness",
+      en: "Fitness & Wellness",
       ar: "اللياقة والعافية",
     },
     coverImage: healthoGymCover,
     gallery: [
-      {
-        src: healthoGymCover,
-        alt: {
-          en: "Healtho Gym project cover",
-          ar: "غلاف مشروع Healtho Gym",
-        },
-      },
-      {
-        src: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=1600&q=80",
-        alt: {
-          en: "Fitness lifestyle visual",
-          ar: "مشهد يعكس أسلوب حياة رياضي",
-        },
-      },
-      {
-        src: "https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=1600&q=80",
-        alt: {
-          en: "Workout tracking product visual",
-          ar: "مشهد يوحي بمنتج لتتبع التمارين",
-        },
-      },
+      { src: healthoPng1, alt: { en: "Home Dashboard", ar: "لوحة التحكم الرئيسية" } },
+      { src: healthoPng2, alt: { en: "Exercise Library", ar: "مكتبة التمارين" } },
+      { src: healthoPng3, alt: { en: "Trainer Dashboard", ar: "لوحة تحكم المدرب" } },
+      { src: healthoPng4, alt: { en: "Workout Planning", ar: "تخطيط التمارين" } },
+      { src: healthoPng5, alt: { en: "Progress Analytics", ar: "تحليلات التقدم" } },
+      { src: healthoPng6, alt: { en: "Nutrition & Tips", ar: "التغذية والنصائح" } },
+      { src: healthoPng7, alt: { en: "User Profile", ar: "الملف الشخصي" } },
+      { src: healthoPng8, alt: { en: "Challenge Section", ar: "قسم التحديات" } },
+      { src: healthoPng9, alt: { en: "App Settings", ar: "إعدادات التطبيق" } },
     ],
     serviceSlugs: [
-      "website-design",
-      "ui-ux-design",
       "mobile-application-development",
+      "ui-ux-design",
+      "web-system-development",
       "software-testing-qa",
     ],
-    techStack: ["Next.js", "Flutter", "TypeScript", "Membership workflows", "Push notifications"],
+    techStack: ["Flutter", "Dart", "Node.js", "MySQL", "Git", "REST API"],
     features: {
       en: [
-        "Membership signup funnel",
-        "Training content hub",
-        "Habit and progress tracking",
-        "Trainer communication touchpoints",
-        "Cross-device product consistency",
+        "Exercises categorized by muscle and difficulty level",
+        "Daily health tips with user interaction",
+        "Pre-made and customizable training plans",
+        "Full admin dashboard for trainer management",
+        "Weekly and monthly motivation challenges",
       ],
       ar: [
-        "قمع تسجيل الاشتراكات",
-        "مكتبة محتوى التدريب",
-        "تتبع العادات والتقدم",
-        "نقاط تواصل مع المدربين",
-        "اتساق المنتج عبر الأجهزة",
+        "تصنيف التمارين حسب العضلات والمستوى",
+        "نصائح يومية تفاعلية مع نظام تنبيهات",
+        "خطط تمارين جاهزة وإمكانية تخصيصها بالكامل",
+        "لوحة تحكم كاملة للمدرب (الأدمن) لإدارة المحتوى",
+        "قسم تحديات أسبوعية وشهرية لتحفيز المستخدمين",
       ],
     },
     challenges: [
       {
-        title: {
-          en: "Blending energy with clarity",
-          ar: "دمج الحماس مع الوضوح",
-        },
+        title: { en: "Organized Content Delivery", ar: "تنظيم المحتوى الرياضي" },
         description: {
-          en: "The brand needed momentum and intensity while still making the product easy to navigate.",
-          ar: "احتاجت العلامة إلى طاقة وحيوية مع بقاء المنتج سهل التصفح والفهم.",
+          en: "Managing hundreds of exercises and tips while maintaining a clutter-free, accessible interface.",
+          ar: "تنظيم المحتوى الرياضي بشكل مريح وسهل الاستخدام مع كثرة التمارين والنصائح لضمان سهولة الوصول.",
         },
       },
       {
-        title: {
-          en: "Keeping engagement after signup",
-          ar: "الحفاظ على التفاعل بعد التسجيل",
-        },
+        title: { en: "Trainer Permissions", ar: "صلاحيات المدربين المخصصة" },
         description: {
-          en: "The experience had to move users from subscription intent into sustained routine usage.",
-          ar: "كان على التجربة نقل المستخدم من نية الاشتراك إلى الاستمرار الفعلي في الاستخدام.",
+          en: "Developing a flexible admin ecosystem allowing coaches to update content in real-time.",
+          ar: "توفير واجهة تحكم مرنة تتيح للمدرب (الأدمن) إدارة المحتوى والتحديات والتمارين بسهولة.",
+        },
+      },
+      {
+        title: { en: "User Retention", ar: "تحفيز التفاعل اليومي" },
+        description: {
+          en: "Creating smart motivational triggers to keep trainees consistent and engaged with the app.",
+          ar: "الحفاظ على حماس واستمرارية المستخدمين من خلال عناصر تحفيزية ذكية ونظام مكافآت.",
+        },
+      },
+      {
+        title: { en: "Personalization at Scale", ar: "تخصيص التمارين حسب الحاجة" },
+        description: {
+          en: "Addressing diverse goals and fitness levels across a wide user base.",
+          ar: "مراعاة اختلاف أهداف المتدربين من حيث المستوى والهدف الرياضي وتقديم خطط مخصصة.",
         },
       },
     ],
     solutions: [
       {
-        title: {
-          en: "Layered conversion design",
-          ar: "تصميم تحويل متعدد الطبقات",
-        },
+        title: { en: "Muscle-Centric UI", ar: "واجهة مرئية للعضلات" },
         description: {
-          en: "We built a web funnel that combined membership proof, community energy, and practical plan clarity.",
-          ar: "بنيناً مسار ويب يجمع بين براهين الاشتراك وطاقة المجتمع ووضوح الباقات.",
+          en: "Designed a graphical navigation system allowing users to select focus muscles (Chest, Legs, Back, etc.).",
+          ar: "واجهة تتيح اختيار العضلة المستهدفة والمستوى (مبتدئ - متوسط - متقدم) للوصول للتمارين المناسبة.",
         },
       },
       {
-        title: {
-          en: "Retention-focused mobile UX",
-          ar: "UX يركز على الاحتفاظ",
-        },
+        title: { en: "Interactive Motivation Engine", ar: "محرك تحفيز تفاعلي" },
         description: {
-          en: "The app centered routines, reminders, and visible progress to keep momentum alive.",
-          ar: "ركز التطبيق على الروتين والتذكيرات وإظهار التقدم للحفاظ على الاستمرارية.",
+          en: "Integrated a notification system for daily tips with likes and community engagement features.",
+          ar: "نظام نصائح يومية تفاعلي يستقبل فيها المستخدم إشعارات دورية مع إمكانية التفاعل معها.",
+        },
+      },
+      {
+        title: { en: "Custom Plan Builder", ar: "منشئ خطط التمارين" },
+        description: {
+          en: "Built a modular system for users to adopt pre-set weeklies or create unique regimes.",
+          ar: "يختار المستخدم خطة أسبوعية أو يومية جاهزة، أو ينشئ خطته الخاصة حسب احتياجه البدني.",
+        },
+      },
+      {
+        title: { en: "Challenge Gamification", ar: "تحويل التحديات لنمط ألعاب" },
+        description: {
+          en: "A dedicated module for time-bound challenges to push users toward their goals.",
+          ar: "قسم خاص بالتحديات الأسبوعية والشهرية لتحفيز المستخدمين على التقدّم وتحقيق أهدافهم الرياضية.",
         },
       },
     ],
     results: [
       {
-        value: "+44%",
-        label: {
-          en: "membership intent",
-          ar: "ارتفاع نية الاشتراك",
-        },
+        value: "Active",
+        label: { en: "Daily Engagement", ar: "التفاعل اليومي" },
         description: {
-          en: "Sharper landing hierarchy improved CTA engagement across primary plans.",
-          ar: "حسّنت الهرمية الأوضح في الواجهة التفاعل مع الدعوات الخاصة بالباقات الأساسية.",
+          en: "Significantly higher app usage rates due to personalized daily tips and challenges.",
+          ar: "معدلات استخدام يومية مرتفعة بفضل التحديات والنصائح المخصصة.",
         },
       },
       {
-        value: "3.2x",
-        label: {
-          en: "repeat app sessions",
-          ar: "جلسات التطبيق المتكررة",
-        },
+        value: "+60%",
+        label: { en: "Trainer Efficiency", ar: "كفاءة المدربين" },
         description: {
-          en: "The routine and progress flows made the mobile experience feel habit-forming.",
-          ar: "جعلت مسارات الروتين والتقدم تجربة التطبيق أكثر قابلية للاعتياد.",
+          en: "The admin panel streamlined workout distribution for dozens of students simultaneously.",
+          ar: "سهلت لوحة التحكم الإدارية توزيع التمارين لعشرات المتدربين في وقت واحد.",
         },
       },
       {
-        value: "9 weeks",
-        label: {
-          en: "launch sprint",
-          ar: "مدة الإطلاق",
-        },
+        value: "Modular",
+        label: { en: "Architecture", ar: "بنية برمجية مرنة" },
         description: {
-          en: "A focused launch track connected website, app, and QA readiness efficiently.",
-          ar: "ربط مسار إطلاق مركز بين الموقع والتطبيق والاختبار بكفاءة.",
+          en: "Scalable tech stack (Node.js + MySQL) capable of handling thousands of exercises.",
+          ar: "بنية تقنية قابلة للتوسع قادرة على استيعاب آلاف التمارين والمستخدمين بسلاسة.",
         },
       },
     ],
-    timeline: {
-      en: "9-week launch sprint",
-      ar: "مسار إطلاق خلال 9 أسابيع",
-    },
+    timeline: { en: "9-week product launch", ar: "إطلاق المنتج خلال 9 أسابيع" },
     projectType: "website-mobile",
     links: {
       website: "https://healtho-gym.example.com",
-      googlePlay: "https://play.google.com/store/apps/details?id=com.blackfalcon.healthogym",
-      appStore: "https://apps.apple.com/app/id650000003",
     },
     heroAccent: "#ff8f2f",
-    relatedProjectSlugs: ["bashra-ai", "moazez-app", "mshwar"],
+    relatedProjectSlugs: ["bashra-ai", "reef-coffee", "mshwar"],
     featured: true,
   },
-
-    /* --------------------------------------------------------------------------------------------------------------- */
 
   {
     slug: "moazez-app",
@@ -686,162 +676,59 @@ export const projects: Project[] = [
       ar: "تطبيق معزز",
     },
     shortDescription: {
-      en: "A community-centric mobile application built to strengthen engagement, participation, and recurring use.",
+      en: "A community-centric App built to strengthen engagement, participation, and recurring use.",
       ar: "تطبيق موبايل مجتمعي صُمم لتعزيز التفاعل والمشاركة والعودة المتكررة.",
     },
     detailedDescription: {
-      en: "Moazez App focused on mobile-first community engagement. The challenge was to make the experience feel active and welcoming while giving the platform enough structure to scale content, updates, and user participation.",
-      ar: "ركز مشروع Moazez App على التفاعل المجتمعي من منظور mobile-first. كان التحدي هو جعل التجربة نشطة ومرحبّة مع منح المنصة هيكلاً كافياً للتوسع في المحتوى والتحديثات والمشاركة.",
+      en: "Moazez focuses on mobile-first community logic and active participation.",
+      ar: "يركز معزز على منطق المجتمع أولاً والمشاركة النشطة.",
     },
     categoryKey: "community",
-    category: {
-      en: "Community app",
-      ar: "تطبيق مجتمعي",
-    },
+    category: { en: "Community App", ar: "تطبيق مجتمعي" },
     industryKey: "community",
-    industry: {
-      en: "Community & engagement",
-      ar: "المجتمع والتفاعل",
-    },
+    industry: { en: "Social & Community", ar: "المجتمع والتفاعل الاجتماعي" },
     coverImage: moazezAppCover,
     gallery: [
-      {
-        src: moazezAppCover,
-        alt: {
-          en: "Moazez App cover",
-          ar: "غلاف Moazez App",
-        },
-      },
-      {
-        src: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1600&q=80",
-        alt: {
-          en: "Community connection visual",
-          ar: "مشهد يعكس التواصل المجتمعي",
-        },
-      },
-      {
-        src: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1600&q=80",
-        alt: {
-          en: "Mobile social interaction visual",
-          ar: "مشهد يوحي بتفاعل اجتماعي عبر الموبايل",
-        },
-      },
+      { src: moazezAppPng1, alt: { en: "Home Feed", ar: "الخلاصة الرئيسية" } },
+      { src: moazezAppPng2, alt: { en: "Member Profiles", ar: "ملفات الأعضاء" } },
+      { src: moazezAppPng3, alt: { en: "Community Groups", ar: "المجموعات المجتمعية" } },
+      { src: moazezAppPng4, alt: { en: "Event Calendar", ar: "تقويم الفعاليات" } },
+      { src: moazezAppPng5, alt: { en: "Discussion Threads", ar: "مواضيع النقاش" } },
+      { src: moazezAppPng6, alt: { en: "Direct Messaging", ar: "المراسلة المباشرة" } },
+      { src: moazezAppPng7, alt: { en: "Resource Library", ar: "مكتبة الموارد" } },
+      { src: moazezAppPng8, alt: { en: "User Settings", ar: "إعدادات المستخدم" } },
     ],
-    serviceSlugs: [
-      "mobile-application-development",
-      "ui-ux-design",
-      "software-testing-qa",
-    ],
-    techStack: ["Flutter", "Firebase", "Push notifications", "Analytics", "Content modules"],
+    serviceSlugs: ["mobile-application-development", "ui-ux-design"],
+    techStack: ["Flutter", "Dart", "Firebase"],
     features: {
-      en: [
-        "Community feed modules",
-        "Event and update touchpoints",
-        "Push-led re-engagement flow",
-        "Structured member participation",
-        "Retention-aware mobile UX",
-      ],
-      ar: [
-        "وحدات تغذية مجتمعية",
-        "نقاط تفاعل للأحداث والتحديثات",
-        "مسار إعادة تفاعل بالإشعارات",
-        "مشاركة أعضاء منظمة",
-        "UX يراعي الاحتفاظ",
-      ],
+      en: ["Social feed", "Event lists", "Real-time updates"],
+      ar: ["خلاصات اجتماعية", "قوائم الفعاليات", "تحدثات لحظية"],
     },
     challenges: [
       {
-        title: {
-          en: "Keeping the experience alive",
-          ar: "الحفاظ على حيوية التجربة",
-        },
-        description: {
-          en: "Community products quickly lose momentum when update patterns and visual hierarchy are weak.",
-          ar: "تفقد المنتجات المجتمعية زخمها بسرعة عندما تكون أنماط التحديث والهرمية البصرية ضعيفة.",
-        },
-      },
-      {
-        title: {
-          en: "Designing for recurring use",
-          ar: "التصميم للاستخدام المتكرر",
-        },
-        description: {
-          en: "The product needed to create enough freshness and clarity to bring users back often.",
-          ar: "كان على المنتج أن يقدّم قدراً كافياً من التجدد والوضوح ليشجع على العودة المتكررة.",
-        },
-      },
+        title: { en: "Scale", ar: "التوسع" },
+        description: { en: "Managing large group logic.", ar: "إدارة منطق المجموعات الكبيرة." }
+      }
     ],
     solutions: [
       {
-        title: {
-          en: "Modular feed architecture",
-          ar: "بنية تغذية معيارية",
-        },
-        description: {
-          en: "We organized content into digestible modules with clear priorities and stronger motion cues.",
-          ar: "نظمنا المحتوى في وحدات سهلة الفهم بأولويات واضحة وإشارات حركة أقوى.",
-        },
-      },
-      {
-        title: {
-          en: "Retention-focused communication",
-          ar: "تواصل يركز على الاحتفاظ",
-        },
-        description: {
-          en: "We built the mobile experience around useful prompts, updates, and quick interaction loops.",
-          ar: "بنينا التجربة حول تنبيهات مفيدة وتحديثات وحلقات تفاعل سريعة.",
-        },
-      },
+        title: { en: "Modular UI", ar: "واجهة معيارية" },
+        description: { en: "Easy to add new modules.", ar: "سهولة إضافة وحدات جديدة." }
+      }
     ],
     results: [
       {
-        value: "+52%",
-        label: {
-          en: "returning users",
-          ar: "زيادة المستخدمين العائدين",
-        },
-        description: {
-          en: "The revised interaction loop encouraged stronger repeat visits.",
-          ar: "شجعت حلقة التفاعل الجديدة على عودة المستخدمين بشكل أوضح.",
-        },
-      },
-      {
-        value: "4.7/5",
-        label: {
-          en: "mobile UX feedback",
-          ar: "تقييم تجربة الموبايل",
-        },
-        description: {
-          en: "Pilot users responded positively to the app’s clarity and energy.",
-          ar: "استجاب المستخدمون التجريبيون بإيجابية لوضوح التطبيق وحيويته.",
-        },
-      },
-      {
-        value: "8 weeks",
-        label: {
-          en: "build duration",
-          ar: "مدة التنفيذ",
-        },
-        description: {
-          en: "The product moved from flow design to mobile QA in a compact timeframe.",
-          ar: "انتقل المنتج من تصميم التدفقات إلى اختبار الموبايل خلال فترة مركزة.",
-        },
-      },
+        value: "Active",
+        label: { en: "Community", ar: "المجتمع" },
+        description: { en: "Consistent daily activity.", ar: "نشاط يومي ثابت." }
+      }
     ],
-    timeline: {
-      en: "8-week mobile release",
-      ar: "إطلاق موبايل خلال 8 أسابيع",
-    },
+    timeline: { en: "Product cycle", ar: "دورة المنتج" },
     projectType: "mobile",
-    links: {
-      googlePlay: "https://play.google.com/store/apps/details?id=com.blackfalcon.moazez",
-      appStore: "https://apps.apple.com/app/id650000004",
-    },
-    heroAccent: "#ff9f50",
-    relatedProjectSlugs: ["moazez-web", "healtho-gym", "multqi-elnor"],
+    links: { googlePlay: "https://play.google.com/store/apps/details?id=com.moazez.app" },
+    heroAccent: "#ec4899",
+    relatedProjectSlugs: ["moazez-web", "multqi-elnor", "bashra-ai"],
   },
-
-    /* --------------------------------------------------------------------------------------------------------------- */
 
   {
     slug: "moazez-web",
@@ -850,157 +737,77 @@ export const projects: Project[] = [
       ar: "موقع معزز",
     },
     shortDescription: {
-      en: "A brand and acquisition website created to support the wider Moazez product ecosystem.",
-      ar: "موقع علامة وتحويل صُمم لدعم منظومة Moazez الرقمية الأوسع.",
+      en: "A comprehensive web portal for the Moazez community, enabling membership management and resource access.",
+      ar: "بوابة إلكترونية شاملة لمجتمع معزز، تتيح إدارة العضويات والوصول إلى الموارد والمحتوى.",
     },
     detailedDescription: {
-      en: "Moazez Website acted as the public-facing gateway for a larger community product. It needed to communicate purpose, value, and momentum quickly, while preparing users to move toward the mobile experience.",
-      ar: "عمل موقع Moazez كواجهة عامة لمنتج مجتمعي أكبر. وكان مطلوباً أن يوصل الهدف والقيمة والزخم بسرعة، مع تهيئة المستخدم للانتقال إلى تجربة الموبايل.",
+      en: "Moazez Website serves as the digital hub for the Moazez community. It provides a robust platform for administrative oversight, content publishing, and interactive forums. The site is designed to handle high traffic and complex user hierarchies, ensuring a smooth experience for both admins and members.",
+      ar: "موقع معزز هو المركز الرقمي للمجتمع. يوفر منصة قوية للإشراف الإداري، ونشر المحتوى، والمنتديات التفاعلية. تم تصميم الموقع للتعامل مع الزيارات العالية والتسلسلات الهرمية المعقدة للمستخدمين، مما يضمن تجربة سلسة لكل من الإدارة والأعضاء.",
     },
-    categoryKey: "brand",
-    category: {
-      en: "Brand website",
-      ar: "موقع علامة",
-    },
+    categoryKey: "platform",
+    category: { en: "Community Web Portal", ar: "بوابة مجتمعية على الويب" },
     industryKey: "community",
-    industry: {
-      en: "Community & engagement",
-      ar: "المجتمع والتفاعل",
-    },
+    industry: { en: "Social & Community", ar: "المجتمع والتفاعل الاجتماعي" },
     coverImage: moazezWebCover,
     gallery: [
-      {
-        src: moazezWebCover,
-        alt: {
-          en: "Moazez Website cover",
-          ar: "غلاف موقع Moazez",
-        },
-      },
-      {
-        src: "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1600&q=80",
-        alt: {
-          en: "Modern digital brand workspace visual",
-          ar: "مشهد يعكس مساحة عمل رقمية حديثة",
-        },
-      },
-      {
-        src: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1600&q=80",
-        alt: {
-          en: "Presentation-led website visual",
-          ar: "مشهد يوحي بموقع عرض احترافي",
-        },
-      },
+      { src: moazezWebPng1, alt: { en: "Landing Experience", ar: "تجربة الهبوط" } },
+      { src: moazezWebPng2, alt: { en: "About Community", ar: "عن المجتمع" } },
+      { src: moazezWebPng3, alt: { en: "Member Portal", ar: "بوابة الأعضاء" } },
+      { src: moazezWebPng4, alt: { en: "Course Listings", ar: "قوائم الدورات" } },
+      { src: moazezWebPng5, alt: { en: "Article Repository", ar: "مخزن المقالات" } },
+      { src: moazezWebPng6, alt: { en: "Event Registration", ar: "التسجيل في الفعاليات" } },
+      { src: moazezWebPng7, alt: { en: "Discussion Forum", ar: "منتدى النقاش" } },
+      { src: moazezWebPng8, alt: { en: "Admin Dashboard", ar: "لوحة التحكم الإدارية" } },
     ],
-    serviceSlugs: ["website-design", "ui-ux-design", "web-system-development"],
-    techStack: ["Next.js", "TypeScript", "Tailwind CSS", "Motion design", "SEO"],
+    serviceSlugs: ["web-system-development", "ui-ux-design", "software-testing-qa"],
+    techStack: ["Next.js", "TypeScript", "Tailwind CSS", "Strapi CMS", "PostgreSQL"],
     features: {
       en: [
-        "Brand-first landing structure",
-        "Community proof blocks",
-        "App conversion pathways",
-        "Narrative-rich content flow",
-        "Responsive performance-focused build",
+        "Scalable membership management system",
+        "Dynamic content publishing workflow",
+        "Interactive community forums",
+        "Event management and ticketing",
+        "SEO-optimized articles and resources",
       ],
       ar: [
-        "هيكل هبوط مبني على العلامة",
-        "كتل إثبات للمجتمع",
-        "مسارات تحويل إلى التطبيق",
-        "تدفق محتوى غني بالسرد",
-        "بناء متجاوب يركز على الأداء",
+        "نظام إدارة عضويات قابل للتوسع",
+        "مسار عمل ديناميكي لنشر المحتوى",
+        "منتديات مجتمعية تفاعلية",
+        "إدارة الفعاليات وإصدار التذاكر",
+        "مقالات وموارد محسنة لمحركات البحث (SEO)",
       ],
     },
     challenges: [
       {
-        title: {
-          en: "Selling a growing ecosystem",
-          ar: "عرض منظومة في طور النمو",
-        },
+        title: { en: "User Hierarchy Complexity", ar: "تعقيد تسلسل المستخدمين" },
         description: {
-          en: "The website had to communicate more than a single feature set; it had to present a movement and product direction.",
-          ar: "كان على الموقع أن يبيع أكثر من ميزة واحدة؛ بل أن يعرض توجهاً ومنظومة متنامية.",
-        },
-      },
-      {
-        title: {
-          en: "Connecting brand and product",
-          ar: "ربط العلامة بالمنتج",
-        },
-        description: {
-          en: "The site needed a smooth bridge between public brand messaging and in-app action.",
-          ar: "كان على الموقع أن يصنع جسراً سلساً بين رسائل العلامة العامة والاستخدام داخل التطبيق.",
+          en: "Designing a system that handles multiple levels of community administrative roles and permissions.",
+          ar: "تصميم نظام يتعامل مع مستويات متعددة من الأدوار الإدارية والصلاحيات داخل المجتمع.",
         },
       },
     ],
     solutions: [
       {
-        title: {
-          en: "High-trust landing narrative",
-          ar: "سرد هبوط يعزز الثقة",
-        },
+        title: { en: "Headless CMS Integration", ar: "تكامل نظام إدارة محتوى (Headless)" },
         description: {
-          en: "We positioned the website around clarity, community proof, and strong directional CTAs.",
-          ar: "تمحور الموقع حول الوضوح والبراهين المجتمعية والدعوات القوية للتقدم.",
-        },
-      },
-      {
-        title: {
-          en: "Shared visual language",
-          ar: "لغة بصرية موحدة",
-        },
-        description: {
-          en: "The site mirrored the energy and tone of the mobile product so the journey felt cohesive.",
-          ar: "عكس الموقع نفس طاقة ونبرة التطبيق ليشعر المستخدم باتساق الرحلة.",
+          en: "Implemented Strapi to allow easy content management while maintaining a high-performance Next.js frontend.",
+          ar: "تنفيذ Strapi للسماح بإدارة محتوى سهلة مع الحفاظ على واجهة Next.js عالية الأداء.",
         },
       },
     ],
     results: [
       {
-        value: "+41%",
-        label: {
-          en: "app interest lift",
-          ar: "ارتفاع الاهتمام بالتطبيق",
-        },
-        description: {
-          en: "Clearer web positioning improved app-click intent from new visitors.",
-          ar: "أسهم التموضع الأوضح على الويب في رفع نية الانتقال للتطبيق لدى الزوار الجدد.",
-        },
-      },
-      {
-        value: "-24%",
-        label: {
-          en: "bounce reduction",
-          ar: "انخفاض الارتداد",
-        },
-        description: {
-          en: "A stronger visual rhythm and narrative flow reduced early exits.",
-          ar: "خفض الإيقاع البصري الأقوى والتدفق السردي الواضح الخروج المبكر.",
-        },
-      },
-      {
-        value: "6 weeks",
-        label: {
-          en: "delivery cycle",
-          ar: "دورة التنفيذ",
-        },
-        description: {
-          en: "A lean production cycle supported a fast public-facing launch.",
-          ar: "دعم مسار إنتاج رشيق إطلاقاً عاماً سريعاً.",
-        },
+        value: "+52%",
+        label: { en: "User Retention", ar: "الاحتفاظ بالمستخدمين" },
+        description: { en: "Improved navigation led to significantly higher return visits.", ar: "أدى التنقل المحسن إلى زيارات متكررة أعلى بشكل ملحوظ." },
       },
     ],
-    timeline: {
-      en: "6-week website rollout",
-      ar: "إطلاق الموقع خلال 6 أسابيع",
-    },
+    timeline: { en: "Platform delivery cycle", ar: "دورة تنفيذ المنصة" },
     projectType: "website",
-    links: {
-      website: "https://moazez.example.com",
-    },
-    heroAccent: "#f7a14a",
-    relatedProjectSlugs: ["moazez-app", "multqi-elnor", "dalilk"],
+    links: { website: "https://moazez.example.com" },
+    heroAccent: "#4f46e5",
+    relatedProjectSlugs: ["moazez-app", "bashra-ai"],
   },
-
-    /* --------------------------------------------------------------------------------------------------------------- */
 
   {
     slug: "mshwar",
@@ -1009,89 +816,72 @@ export const projects: Project[] = [
       ar: "مشوار",
     },
     shortDescription: {
-      en: "A mobility and operations product for coordinating trips, requests, and service visibility across channels.",
-      ar: "منتج للتنقل والعمليات ينسق الرحلات والطلبات ووضوح الخدمة عبر القنوات المختلفة.",
+      en: "An operations-centric ecosystem connected through web logic and mobile service touchpoints.",
+      ar: "منظومة تشغيلية مرتبطة من خلال منطق الويب ونقاط تواصل الخدمة على الموبايل.",
     },
     detailedDescription: {
-      en: "Mshwar required a strong operations mindset. The product experience had to support real-world coordination, status clarity, and multi-step interactions across website and mobile contexts.",
-      ar: "احتاج Mshwar إلى عقلية تشغيلية واضحة. كان على التجربة أن تدعم التنسيق الواقعي ووضوح الحالة والتفاعلات متعددة الخطوات عبر الويب والموبايل.",
+      en: "Mshwar focused on the functional clarity required for task-driven service interactions. The challenge was to coordinate status, tracking, and operational logging across diverse user roles without increasing friction.",
+      ar: "ركز مشروع Mshwar على الوضوح الوظيفي المطلوب للتفاعلات الخدمية القائمة على المهام. كان التحدي هو تنسيق الحالات والتتبع والتسجيل التشغيلي عبر أدوار مستخدمين متنوعة دون زيادة التعقيد.",
     },
     categoryKey: "operations",
-    category: {
-      en: "Operations platform",
-      ar: "منصة تشغيلية",
-    },
+    category: { en: "Operational Ecosystem", ar: "منظومة تشغيلية" },
     industryKey: "mobility",
-    industry: {
-      en: "Mobility",
-      ar: "التنقل",
-    },
+    industry: { en: "Mobility & Services", ar: "الحركة والخدمات" },
     coverImage: mshwarCover,
     gallery: [
-      {
-        src: mshwarCover,
-        alt: {
-          en: "Mshwar project cover",
-          ar: "غلاف مشروع Mshwar",
-        },
-      },
-      {
-        src: "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?auto=format&fit=crop&w=1600&q=80",
-        alt: {
-          en: "Urban mobility visual",
-          ar: "مشهد يعكس التنقل داخل المدينة",
-        },
-      },
-      {
-        src: "https://images.unsplash.com/photo-1556740749-887f6717d7e4?auto=format&fit=crop&w=1600&q=80",
-        alt: {
-          en: "Operational dashboard visual",
-          ar: "مشهد يوحي بلوحة تشغيلية",
-        },
-      },
+      { src: mshwarPng1, alt: { en: "Main Dashboard", ar: "لوحة التحكم الرئيسية" } },
+      { src: mshwarPng2, alt: { en: "User Interface", ar: "واجهة المستخدم" } },
+      { src: mshwarPng3, alt: { en: "Service Tracking", ar: "تتبع الخدمة" } },
+      { src: mshwarPng4, alt: { en: "Role Management", ar: "إدارة الأدوار" } },
+      { src: mshwarPng5, alt: { en: "Operations Overview", ar: "نظرة عامة على العمليات" } },
+      { src: mshwarPng6, alt: { en: "Notification Center", ar: "مركز التنبيهات" } },
+      { src: mshwarPng7, alt: { en: "Reporting Tools", ar: "أدوات التقارير" } },
+      { src: mshwarPng8, alt: { en: "Provider Dashboard", ar: "لوحة تحكم المزود" } },
+      { src: mshwarPng9, alt: { en: "Settings & Config", ar: "إعدادات والتهيئ" } },
+      { src: mshwarPng10, alt: { en: "Support Helpdesk", ar: "مكتب المساعدة والدعم" } },
     ],
     serviceSlugs: [
       "web-system-development",
       "mobile-application-development",
-      "devops-server-management",
+      "ui-ux-design",
       "software-testing-qa",
     ],
-    techStack: ["Next.js", "Flutter", "Node APIs", "Maps integration", "CI/CD"],
+    techStack: ["Next.js", "Flutter", "TypeScript", "Status workflows", "Real-time state"],
     features: {
       en: [
-        "Request and trip management flows",
-        "Live status communication",
-        "Operational dashboard logic",
-        "Mobile-first service coordination",
-        "Scalable deployment considerations",
+        "Task and workflow tracking",
+        "Role-based action groupings",
+        "Instant operational logging",
+        "Mobile service companion",
+        "Status visibility for all tiers",
       ],
       ar: [
-        "مسارات إدارة الرحلات والطلبات",
-        "تواصل واضح للحالات المباشرة",
-        "منطق لوحة تشغيلية",
-        "تنسيق خدمة بمنهج mobile-first",
-        "اعتبارات نشر قابلة للتوسع",
+        "تتبع المهام وسير العمل",
+        "تجميع الإجراءات حسب الأدوار",
+        "تسجيل تشغيلي فوري",
+        "تطبيق موبايل مكمّل للخدمة",
+        "وضوح الحالات لجميع المستويات",
       ],
     },
     challenges: [
       {
         title: {
-          en: "Complex state handling",
-          ar: "تعقيد إدارة الحالات",
+          en: "Role complexity",
+          ar: "تعقيد الأدوار",
         },
         description: {
-          en: "Operational products involve many statuses and role-based actions that can quickly feel overwhelming.",
-          ar: "تتضمن المنتجات التشغيلية حالات كثيرة وإجراءات مختلفة حسب الدور وقد تصبح مرهقة سريعاً.",
+          en: "Maintaining transparency while ensuring each user type sees only what they need to act.",
+          ar: "الحفاظ على الشفافية مع ضمان أن يرى كل نوع مستخدم ما يحتاجه فقط لاتخاذ إجراء.",
         },
       },
       {
         title: {
-          en: "Balancing speed with clarity",
-          ar: "الموازنة بين السرعة والوضوح",
+          en: "High-paced environment usage",
+          ar: "الاستخدام في بيئة عمل سريعة",
         },
         description: {
-          en: "Users needed immediate action paths without losing awareness of what happens next.",
-          ar: "احتاج المستخدم إلى مسارات إجراء مباشرة دون فقدان وضوح ما سيحدث بعد ذلك.",
+          en: "The interface needed to be highly utilitarian and usable during active service scenarios.",
+          ar: "كان على الواجهة أن تكون عملية للغاية وسهلة الاستخدام أثناء سيناريوهات الخدمة النشطة.",
         },
       },
     ],
@@ -1158,15 +948,12 @@ export const projects: Project[] = [
     },
     projectType: "website-mobile",
     links: {
-      website: "https://mshwar.example.com",
       googlePlay: "https://play.google.com/store/apps/details?id=com.blackfalcon.mshwar",
     },
     heroAccent: "#f89c3e",
     relatedProjectSlugs: ["dalilk", "zakroon", "healtho-gym"],
     featured: true,
   },
-
-    /* --------------------------------------------------------------------------------------------------------------- */
 
   {
     slug: "multqi-elnor",
@@ -1175,156 +962,167 @@ export const projects: Project[] = [
       ar: "ملتقى النور القرأني",
     },
     shortDescription: {
-      en: "An event and community website created to present programs, speakers, and participation pathways with clarity.",
-      ar: "موقع فعاليات ومجتمع صُمم لعرض البرامج والمتحدثين ومسارات المشاركة بوضوح.",
+      en: "A comprehensive Islamic application for daily spiritual needs, worship tracking, and community Quran circles.",
+      ar: "تطبيق إسلامي شامل يهدف إلى تلبية احتياجات المسلم اليومية من عبادة وذكر وإدارة حلقات حفظ القرآن.",
     },
     detailedDescription: {
-      en: "Multqi Elnor needed a premium web presence that could communicate event value, program depth, and registration clarity. The design had to feel elevated while staying practical for audiences looking for agenda and attendance information.",
-      ar: "احتاج Multqi Elnor إلى حضور رقمي راقٍ يوضح قيمة الحدث وعمق البرنامج وسهولة التسجيل. وكان على التصميم أن يبدو مميزاً مع بقاءه عملياً لمن يبحث عن تفاصيل الأجندة والحضور.",
+      en: "Multqi Elnor is an all-in-one spiritual companion featuring prayer times, Quran with tafsir, Azkar, and a Qibla compass. Uniquely, it includes a robust admin system for managing Quran memorization circles, allowing teachers to enroll students and send group notifications directly to the app.",
+      ar: "منصة إسلامية متكاملة تضم مواقيت الصلاة، القرآن الكريم مع التفسير، والأذكار، واتجاه القبلة. يتميز التطبيق بوجود لوحة تحكم متطورة للإدارة لإضافة الطلاب لحلقات حفظ القرآن الكريم وإرسال الإشعارات الفورية لهم، مما يجعله أداة تعليمية وإيمانية شاملة.",
     },
-    categoryKey: "brand",
+    categoryKey: "community",
     category: {
-      en: "Event website",
-      ar: "موقع فعالية",
+      en: "Community & Spiritual Platform",
+      ar: "منصة مجتمعية وإيمانية",
     },
-    industryKey: "events",
+    industryKey: "community",
     industry: {
-      en: "Events",
-      ar: "الفعاليات",
+      en: "Islamic Community",
+      ar: "المجتمع الإسلامي",
     },
-    coverImage: multqiElnorCover,
+    coverImage: multqiPng1,
     gallery: [
-      {
-        src: multqiElnorCover,
-        alt: {
-          en: "Multqi Elnor project cover",
-          ar: "غلاف مشروع Multqi Elnor",
-        },
-      },
-      {
-        src: "https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=1600&q=80",
-        alt: {
-          en: "Conference atmosphere visual",
-          ar: "مشهد يعكس أجواء مؤتمر",
-        },
-      },
-      {
-        src: "https://images.unsplash.com/photo-1515169067868-5387ec356754?auto=format&fit=crop&w=1600&q=80",
-        alt: {
-          en: "Stage and audience visual",
-          ar: "مشهد يعكس المسرح والجمهور",
-        },
-      },
+      { src: multqiPng1, alt: { en: "Multqi Elnor home screen", ar: "الشاشة الرئيسية لملتقى النور" } },
+      { src: multqiPng2, alt: { en: "Prayer times and Qibla interface", ar: "واجهة مواقيت الصلاة والقبلة" } },
+      { src: multqiPng3, alt: { en: "Digital Quran reading experience", ar: "تجربة قراءة القرآن الكريم" } },
+      { src: multqiPng4, alt: { en: "Daily Azkar and remembrance", ar: "الأذكار والأوراد اليومية" } },
+      { src: multqiPng5, alt: { en: "Quran circle management dashboard", ar: "لوحة إدارة حلقات القرآن" } },
+      { src: multqiPng6, alt: { en: "Student progress and notifications", ar: "تتبع تقدم الطلاب والإشعارات" } },
+      { src: multqiPng7, alt: { en: "Sunnah and Hadith library", ar: "مكتبة السنة والأحاديث النبوية" } },
+      { src: multqiPng8, alt: { en: "App settings and customization", ar: "إعدادات التطبيق وتخصيص الواجهة" } },
     ],
-    serviceSlugs: ["website-design", "ui-ux-design", "web-system-development"],
-    techStack: ["Next.js", "Tailwind CSS", "CMS-ready data blocks", "Responsive UI", "SEO"],
+    serviceSlugs: [
+      "mobile-application-development",
+      "ui-ux-design",
+      "web-system-development",
+    ],
+    techStack: ["Flutter", "Dart", "Firebase", "REST API", "Git"],
     features: {
       en: [
-        "Program and agenda structure",
-        "Speaker highlights",
-        "Registration CTA pathways",
-        "Proof-led event storytelling",
-        "Responsive information layouts",
+        "Digital Quran with offline tafsir and translations",
+        "Precise prayer calculations with global location support",
+        "Interactive Qibla compass and electronic prayer beads",
+        "Admin dashboard for managing student memorization circles",
+        "Instant push notifications for student updates and reminders",
       ],
       ar: [
-        "هيكلة البرنامج والأجندة",
-        "إبراز المتحدثين",
-        "مسارات دعوة للتسجيل",
-        "سرد فعالية قائم على البراهين",
-        "تخطيطات معلومات متجاوبة",
+        "القرآن الكريم كاملاً مع التفسير والعمل بدون إنترنت",
+        "مواقيت صلاة دقيقة مع دعم تلقائي ويدوي للموقع",
+        "بوصلة تفاعلية للقبلة ومسبحة إلكترونية",
+        "لوحة تحكم لإدارة حلقات حفظ القرآن الكريم وإضافة الطلاب",
+        "نظام إشعارات فورية للتواصل مع الطلاب والمشتركين",
       ],
     },
     challenges: [
       {
         title: {
-          en: "Making event information feel premium",
-          ar: "جعل معلومات الفعالية تبدو راقية",
+          en: "Multi-functional Content Integration",
+          ar: "تكامل المحتوى المتعدد",
         },
         description: {
-          en: "Schedule-heavy websites can become flat and utilitarian if the visual system is not carefully crafted.",
-          ar: "قد تبدو مواقع الفعاليات المليئة بالجداول مسطحة وعملية فقط إذا لم يُصغ النظام البصري بعناية.",
+          en: "Merging Quran, Azkar, prayer times, and Qibla into one elegant interface without overwhelming the user.",
+          ar: "دمج القرآن والأذكار وأوقات الصلاة والقبلة في واجهة واحدة أنيقة دون تعقيد تجربة المستخدم.",
         },
       },
       {
         title: {
-          en: "Driving attendance through clarity",
-          ar: "تحفيز الحضور عبر الوضوح",
+          en: "Global Prayer Accuracy",
+          ar: "دقة المواقيت عالمياً",
         },
         description: {
-          en: "The experience needed to guide users quickly toward the event’s value and registration steps.",
-          ar: "كان على التجربة أن تقود المستخدم بسرعة إلى قيمة الفعالية وخطوات التسجيل.",
+          en: "Ensuring correct prayer calculations across all countries with support for manual location overrides.",
+          ar: "التأكد من دقة حسابات أوقات الصلاة في جميع الدول مع دعم تغيير الموقع يدوياً.",
+        },
+      },
+      {
+        title: {
+          en: "Offline Utility Management",
+          ar: "إدارة الوظائف بدون إنترنت",
+        },
+        description: {
+          en: "Allowing core features like Quran and Azkar to work purely offline while keeping the app lightweight.",
+          ar: "إتاحة الوظائف الأساسية مثل القرآن والأذكار للعمل بدون إنترنت مع الحفاظ على خفة أداء التطبيق.",
         },
       },
     ],
     solutions: [
       {
         title: {
-          en: "Editorial visual rhythm",
-          ar: "إيقاع بصري تحريري",
+          en: "Icon-Led Intuitive Navigation",
+          ar: "تنقل بديهي عبر الأيقونات",
         },
         description: {
-          en: "We treated the website more like a premium program brochure than a generic event listing page.",
-          ar: "تعاملنا مع الموقع ككتيب برنامج راقٍ أكثر من كونه صفحة فعاليات تقليدية.",
+          en: "Content divided into main spiritual sections accessible quickly from a serene, spiritual home screen.",
+          ar: "تقسيم المحتوى إلى أقسام رئيسية قابلة للوصول بسرعة مع استخدام أيقونات توضيحية هادئة.",
         },
       },
       {
         title: {
-          en: "Clear registration hierarchy",
-          ar: "هرمية تسجيل واضحة",
+          en: "Verified Calculation Algorithms",
+          ar: "خوارزميات حسابية معتمدة",
         },
         description: {
-          en: "CTA placement, agenda grouping, and section pacing made the registration flow easier to follow.",
-          ar: "جعل توزيع الدعوات وتجميع الأجندة وإيقاع الأقسام مسار التسجيل أوضح وأسهل.",
+          en: "Utilized trusted algorithms (Um Al-Qura, Egyptian Authority) with GPS and compass sensor calibration.",
+          ar: "استخدام خوارزميات موثوقة (مثل تقويم أم القرى) مع تكامل دقيق مع البوصلة وGPS الجوال.",
+        },
+      },
+      {
+        title: {
+          en: "Integrated Admin Ecosystem",
+          ar: "منظومة إدارية متكاملة",
+        },
+        description: {
+          en: "Developed a web-based admin circle management tool that connects directly to student mobile profiles.",
+          ar: "تطوير لوحة تحكم إدارية لربط حلقات الحفظ بملفات الطلاب الشخصية داخل التطبيق.",
         },
       },
     ],
     results: [
       {
-        value: "+47%",
+        value: "Verified",
         label: {
-          en: "registration intent",
-          ar: "زيادة نية التسجيل",
+          en: "Content Authenticity",
+          ar: "صحة المحتوى",
         },
         description: {
-          en: "The revised page rhythm gave users quicker confidence in the event proposition.",
-          ar: "منح الإيقاع الجديد للصفحة المستخدمين ثقة أسرع في قيمة الفعالية.",
+          en: "All verses, Hadiths, and Azkar were cross-referenced against approved religious sources.",
+          ar: "تم التحقق من جميع الآيات والأحاديث والأذكار ومطابقتها للمراجع المعتمدة.",
         },
       },
       {
-        value: "5.1 min",
+        value: "4.8/5",
         label: {
-          en: "average content engagement",
-          ar: "متوسط التفاعل مع المحتوى",
+          en: "User Experience Rating",
+          ar: "تقييم تجربة المستخدم",
         },
         description: {
-          en: "Visitors spent meaningful time exploring the program and speaker sections.",
-          ar: "أمضى الزوار وقتاً ملحوظاً في استكشاف البرنامج وأقسام المتحدثين.",
+          en: "High spiritual engagement due to the calm and peaceful UI and UX design.",
+          ar: "تفاعل إيماني عالٍ بفضل تصميم واجهة المستخدم الهادئة والمريحة بصرياً.",
         },
       },
       {
-        value: "5 weeks",
+        value: "Realtime",
         label: {
-          en: "website turnaround",
-          ar: "مدة إنجاز الموقع",
+          en: "Student Alerts",
+          ar: "تنبيهات الطلاب",
         },
         description: {
-          en: "A fast turnaround supported the event timeline without compromising polish.",
-          ar: "دعم الإنجاز السريع جدول الفعالية دون التنازل عن الجودة البصرية.",
+          en: "Immediate notification delivery for class updates and memorization schedules.",
+          ar: "وصول فوري للإشعارات المتعلقة بتحديثات الحلقات وجداول الحفظ.",
         },
       },
     ],
     timeline: {
-      en: "5-week event site launch",
-      ar: "إطلاق الموقع خلال 5 أسابيع",
+      en: "Complete spiritual platform release",
+      ar: "إطلاق منصة إيمانية كاملة",
     },
-    projectType: "website",
+    projectType: "website-mobile",
     links: {
-      website: "https://multqi-elnor.example.com",
+      googlePlay: "https://play.google.com/store/apps/details?id=com.noor.quran",
     },
-    heroAccent: "#f5a955",
-    relatedProjectSlugs: ["moazez-web", "dalilk", "zakroon"],
+    heroAccent: "#14b8a6",
+    relatedProjectSlugs: ["moazez-app", "zakroon", "bashra-ai"],
+    featured: true,
   },
-    /* --------------------------------------------------------------------------------------------------------------- */
 
   {
     slug: "zakroon",
@@ -1483,9 +1281,6 @@ export const projects: Project[] = [
     projectType: "website-mobile",
     links: {
       website: "https://zakroon.example.com",
-      googlePlay: "https://play.google.com/store/apps/details?id=com.blackfalcon.zakroon",
-      appStore: "https://apps.apple.com/app/id650000005",
-      caseStudy: "https://behance.net/gallery/blackfalcon-zakroon",
     },
     heroAccent: "#ffa240",
     relatedProjectSlugs: ["mshwar", "healtho-gym", "dalilk"],
