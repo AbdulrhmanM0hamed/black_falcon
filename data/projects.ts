@@ -903,6 +903,7 @@ export const projects: Project[] = [
     links: { website: "https://moazez.sa/" },
     heroAccent: "#4f46e5",
     relatedProjectSlugs: ["moazez-app", "bashra-ai"],
+    featured: true,
   },
 
   {

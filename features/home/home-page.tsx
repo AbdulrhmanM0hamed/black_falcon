@@ -108,7 +108,11 @@ export function HomePage({
 
       <ProjectsShowcaseSection
         locale={locale}
-        projects={featuredProjects.slice(0, 3)}
+        projects={[
+          featuredProjects.find((p) => p.slug === "moazez-web"),
+          featuredProjects.find((p) => p.slug === "mshwar"),
+          featuredProjects.find((p) => p.slug === "elsquor"),
+        ].filter(Boolean) as Project[]}
         eyebrow={dictionary.home.projects.eyebrow}
         title={dictionary.home.projects.title}
         description={dictionary.home.projects.description}
