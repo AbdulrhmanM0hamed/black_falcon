@@ -38,7 +38,10 @@ export type IconKey =
   | "globe"
   | "server"
   | "smartphone"
-  | "badge";
+  | "badge"
+  | "target"
+  | "shield-check"
+  | "users-round";
 
 export type ProjectType = "website" | "mobile" | "website-mobile";
 
@@ -59,6 +62,12 @@ export type IndustryKey =
   | "real-estate"
   | "mobility"
   | "business";
+
+export interface TrustSignal {
+  iconKey: IconKey;
+  en: string;
+  ar: string;
+}
 
 export interface Metric {
   value: string;

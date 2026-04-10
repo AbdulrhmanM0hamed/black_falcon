@@ -83,22 +83,26 @@ export const siteStats: SiteStats[] = [
   },
 ];
 
-export const trustSignals = [
+export const trustSignals: TrustSignal[] = [
   {
-    en: "Product strategy and UX thinking aligned with engineering reality",
-    ar: "استراتيجية المنتج وتجربة المستخدم متوافقة مع الواقع الهندسي",
+    iconKey: "target",
+    en: "Product strategy and UX thinking aligned with your commercial growth goals",
+    ar: "استراتيجية المنتج وتجربة المستخدم متوافقة مع أهداف نموك التجاري",
   },
   {
-    en: "Strong QA discipline before public release and post-launch scaling",
-    ar: "انضباط واضح في ضمان الجودة قبل الإطلاق العام وبعده",
+    iconKey: "shield-check",
+    en: "Strong QA discipline ensured before public release and post-launch scaling",
+    ar: "انضباط واضح في ضمان الجودة قبل الإطلاق العام وبعده لضمان الاستمرارية",
   },
   {
-    en: "Delivery communication built for founders, operators, and internal teams",
-    ar: "تواصل تنفيذي مناسب للمؤسسين والفرق التشغيلية والفرق الداخلية",
+    iconKey: "users-round",
+    en: "Transparent delivery communication built for founders and execution teams",
+    ar: "تواصل تنفيذي شفاف مُصمم للمؤسسين وفرق التنفيذ لضمان وضوح الرؤية",
   },
   {
-    en: "Operational readiness from infrastructure to observability and release flow",
-    ar: "جاهزية تشغيلية من البنية التحتية إلى المراقبة وتدفق الإصدارات",
+    iconKey: "rocket",
+    en: "Operational readiness from architecture to observability and release cycles",
+    ar: "جاهزية تشغيلية كاملة من المعمارية إلى المراقبة وتدفق الإصدارات السريع",
   },
 ] as const;
 

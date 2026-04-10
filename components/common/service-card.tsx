@@ -50,7 +50,7 @@ export function ServiceCard({
               {localize(service.summary, locale)}
             </p>
           </div>
-          <ul className="space-y-2.5 text-[15px] text-white/60">
+          <ul className="mt-auto space-y-2.5 text-[15px] text-white/60">
             {localize(service.keyFeatures, locale)
               .slice(0, 3)
               .map((feature) => (

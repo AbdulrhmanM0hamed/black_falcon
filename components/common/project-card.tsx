@@ -65,7 +65,7 @@ export function ProjectCard({
               {localize(project.shortDescription, locale)}
             </p>
           </div>
-          <div className="flex items-center justify-between gap-4 text-sm text-white/52">
+          <div className="mt-auto flex items-center justify-between gap-4 text-sm text-white/52">
             <span>{localize(project.industry, locale)}</span>
             <span className="text-[#ffd3a0]">
               {locale === "en" ? "View details" : "عرض التفاصيل"}

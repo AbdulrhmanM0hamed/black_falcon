@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { CtaPanel } from "@/components/common/cta-panel";
 import { PageHero } from "@/components/common/page-hero";
 import { siteSettings } from "@/data/site";
@@ -41,6 +42,18 @@ export function ProjectsPage({
             label: locale === "en" ? "portfolio presentation" : "عرض احترافي للأعمال",
           },
         ]}
+        media={
+          <div className="relative min-h-[300px] w-full md:min-h-[400px] xl:h-full xl:self-start xl:-mt-10 xl:translate-x-[-1rem]">
+            <Image
+              src="/projects/projects.svg"
+              alt="Projects showcase visual"
+              fill
+              priority
+              className="object-contain"
+              sizes="(max-width: 1280px) 100vw, 50vw"
+            />
+          </div>
+        }
       />
 
       <section className="mx-auto max-w-7xl px-6 py-24 md:px-10">

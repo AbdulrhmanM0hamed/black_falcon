@@ -64,11 +64,10 @@ export const en = {
         "Trusted to shape products where brand perception and technical quality both matter.",
     },
     trust: {
-      eyebrow: "Built for decision-makers who expect more",
-      title:
-        "The brand language of a premium software house, backed by a delivery mindset that ships.",
+      eyebrow: "Your partner in success",
+      title: "More than just software execution; we build a sustainable future for your business.",
       description:
-        "We combine strategic UX, engineering rigor, testing discipline, and deployment confidence so every release feels intentional.",
+        "We focus on turning technical challenges into commercial opportunities, where engineering precision meets strategic thinking to ensure your product leads the market and achieves the desired results.",
     },
     services: {
       eyebrow: "Core services",

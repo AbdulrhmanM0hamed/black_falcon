@@ -16,6 +16,8 @@ import {
   Smartphone,
   Sparkles,
   SquareKanban,
+  Target,
+  UsersRound,
 } from "lucide-react";
 
 import type { IconKey, ServiceIconKey } from "@/types/content";
@@ -48,4 +50,7 @@ export const iconMap: Record<IconKey, LucideIcon> = {
   server: ServerCog,
   smartphone: Smartphone,
   badge: BadgeCheck,
+  target: Target,
+  "shield-check": ShieldCheck,
+  "users-round": UsersRound,
 };
