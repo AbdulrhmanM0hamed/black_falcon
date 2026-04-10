@@ -26,7 +26,7 @@ export const siteSettings: SiteSettings = {
     en: "Cairo, Egypt",
     ar: "القاهرة، مصر",
   },
-  email: "hello@blackfalcon.dev",
+  email: "info@blackfalcon.net",
   phone: "+20 103 035 7911",
   whatsapp:
     "https://api.whatsapp.com/send/?phone=%2B201030357911&text&type=phone_number&app_absent=0",
