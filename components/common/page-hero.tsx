@@ -50,12 +50,12 @@ export function PageHero({
               {metrics.map((metric) => (
                 <div
                   key={metric.label}
-                  className="rounded-[1.65rem] border border-white/10 bg-white/[0.04] p-6 backdrop-blur-sm md:p-7"
+                  className="rounded-[1.4rem] border border-white/10 bg-white/[0.04] p-5 backdrop-blur-sm md:p-6"
                 >
-                  <div className="text-3xl font-semibold text-white md:text-[2.2rem]">
+                  <div className="text-2xl font-semibold text-white md:text-[1.85rem]">
                     {metric.value}
                   </div>
-                  <div className="mt-3 text-sm uppercase tracking-[0.28em] text-white/54">
+                  <div className="mt-2.5 text-[0.8rem] uppercase tracking-[0.24em] text-white/54">
                     {metric.label}
                   </div>
                 </div>

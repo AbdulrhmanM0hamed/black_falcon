@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 import { CtaPanel } from "@/components/common/cta-panel";
@@ -54,6 +55,18 @@ export function ServicesPage({
             label: locale === "en" ? "delivery standard" : "معيار تنفيذ راقٍ",
           },
         ]}
+        media={
+          <div className="relative min-h-[300px] w-full md:min-h-[400px] xl:h-full xl:self-start xl:-mt-10 xl:translate-x-[-1rem]">
+            <Image
+              src="/services/services.svg"
+              alt="Services showcase visual"
+              fill
+              priority
+              className="object-contain"
+              sizes="(max-width: 1280px) 100vw, 50vw"
+            />
+          </div>
+        }
       />
 
       <ServicesShowcaseSection

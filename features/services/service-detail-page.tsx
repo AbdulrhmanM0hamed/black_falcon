@@ -48,30 +48,15 @@ export function ServiceDetailPage({
           label: localize(item.label, locale),
         }))}
         media={
-          <div className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/[0.04] shadow-[0_30px_80px_rgba(0,0,0,0.22)]">
-            <div className="relative aspect-[16/12]">
-              <Image
-                src={service.image}
-                alt={localize(service.name, locale)}
-                fill
-                className="object-cover"
-                sizes="(max-width: 1200px) 100vw, 42vw"
-              />
-              <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(0,0,0,0.05),rgba(0,0,0,0.82))]" />
-              <div className="absolute inset-x-6 bottom-6 flex items-center gap-4">
-                <div className="rounded-2xl border border-white/12 bg-black/30 p-3 backdrop-blur-sm">
-                  <Icon className="h-6 w-6 text-[#ffb45e]" />
-                </div>
-                <div>
-                  <div className="text-xs uppercase tracking-[0.28em] text-[#ffd3a0]">
-                    {dictionary.common.techStack}
-                  </div>
-                  <div className="mt-2 text-sm text-white/68">
-                    {service.technologies.join(" • ")}
-                  </div>
-                </div>
-              </div>
-            </div>
+          <div className="relative min-h-[300px] w-full md:min-h-[400px] xl:h-full xl:self-start xl:-mt-10 xl:translate-x-[-1rem]">
+            <Image
+              src={service.image}
+              alt={localize(service.name, locale)}
+              fill
+              className="object-contain"
+              sizes="(max-width: 1280px) 100vw, 50vw"
+              priority
+            />
           </div>
         }
       />

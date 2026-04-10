@@ -24,7 +24,7 @@ export async function generateMetadata({
     description:
       locale === "en"
         ? "Browse Black Falcon case studies across AI, mobility, education, fitness, and community-focused digital products."
-        : "استعرض دراسات حالة بلاك فالكون عبر منتجات رقمية في الذكاء الاصطناعي والتنقل والتعليم واللياقة والمجتمعات.",
+        : "استعرض معرض اعمال بلاك فالكون عبر منتجات رقمية في الذكاء الاصطناعي والتنقل والتعليم واللياقة والمجتمعات.",
     path: "/projects",
   });
 }

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { PageHero } from "@/components/common/page-hero";
 import { ContactPreviewSection } from "@/components/sections/contact-preview-section";
 import type { Dictionary } from "@/messages/en";
@@ -34,6 +35,18 @@ export function ContactPage({
             label: locale === "en" ? "native experience" : "تجربة ثنائية اللغة",
           },
         ]}
+        media={
+          <div className="relative min-h-[300px] w-full md:min-h-[400px] xl:h-full xl:self-start xl:-mt-10 xl:translate-x-[-1rem]">
+            <Image
+              src="/contact_us.svg"
+              alt="Contact Black Falcon visual"
+              fill
+              priority
+              className="object-contain"
+              sizes="(max-width: 1280px) 100vw, 50vw"
+            />
+          </div>
+        }
       />
 
       <ContactPreviewSection

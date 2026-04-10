@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 import { CtaPanel } from "@/components/common/cta-panel";
@@ -55,6 +56,18 @@ export function AboutPage({
           value: item.value,
           label: localize(item.label, locale),
         }))}
+        media={
+          <div className="relative min-h-[300px] w-full md:min-h-[400px] xl:h-full xl:self-start xl:-mt-10 xl:translate-x-[-1rem]">
+            <Image
+              src="/about_us.svg"
+              alt="About Black Falcon visual"
+              fill
+              priority
+              className="object-contain"
+              sizes="(max-width: 1280px) 100vw, 50vw"
+            />
+          </div>
+        }
       />
 
       <section className="mx-auto max-w-7xl px-6 py-24 md:px-10">
