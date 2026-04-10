@@ -37,7 +37,8 @@ export function SiteFooter({
     <footer className="relative border-t border-white/10 bg-black/35">
       <div className="mx-auto grid max-w-7xl gap-12 px-6 py-16 md:px-10 xl:grid-cols-[1.2fr_0.8fr_0.8fr_0.8fr]">
         <div className="space-y-5">
-          <Link href={withLocale(locale)} className="inline-flex">
+          <Link href={withLocale(locale)} className="group relative inline-flex items-center">
+            <div className="absolute inset-x-[-40%] inset-y-[-20%] -z-10 bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.28)_0%,transparent_75%)] blur-3xl opacity-80" />
             <Image
               src="/logo.svg"
               alt="Black Falcon"
@@ -52,16 +53,27 @@ export function SiteFooter({
           <p className="max-w-md text-sm leading-7 text-white/62">
             {dictionary.description}
           </p>
-          <div className="flex flex-wrap gap-3 text-sm text-white/68">
-            {siteSettings.socialLinks.map((item) => (
+          <div className="flex flex-wrap gap-4 pt-2">
+            {[
+              { id: 'facebook', icon: '/icons/facebook.png', href: '#' },
+              { id: 'linkedin', icon: '/icons/linkedin.png', href: siteSettings.socialLinks.find(s => s.label === 'LinkedIn')?.href || '#' },
+              { id: 'instagram', icon: '/icons/instagram.png', href: '#' },
+              { id: 'github', icon: '/icons/github.png', href: siteSettings.socialLinks.find(s => s.label === 'GitHub')?.href || '#' },
+            ].map((social) => (
               <a
-                key={item.label}
-                href={item.href}
+                key={social.id}
+                href={social.href}
                 target="_blank"
                 rel="noreferrer"
-                className="rounded-full border border-white/10 bg-white/[0.04] px-4 py-2 transition-colors duration-300 hover:border-[#ffa240]/35 hover:text-white"
+                className="group relative flex h-11 w-11 items-center justify-center rounded-xl border border-white/10 bg-white/[0.03] transition-all duration-300 hover:scale-110 hover:border-[#ffa240]/50 hover:bg-white/[0.08]"
               >
-                {item.label}
+                <Image
+                  src={social.icon}
+                  alt={social.id}
+                  width={24}
+                  height={24}
+                  className="h-5 w-5 object-contain opacity-70 transition-opacity group-hover:opacity-100"
+                />
               </a>
             ))}
           </div>

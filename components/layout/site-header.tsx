@@ -73,14 +73,15 @@ export function SiteHeader({
         transition={{ duration: 0.3 }}
         className="mx-auto flex max-w-7xl items-center justify-between rounded-full border px-4 py-3 md:px-6"
       >
-        <Link href={withLocale(locale)} className="flex items-center">
+        <Link href={withLocale(locale)} className="group relative flex items-center transition-all active:scale-95">
+          <div className="absolute inset-x-[-30%] inset-y-[-10%] -z-10 bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.22)_0%,transparent_75%)] blur-2xl" />
           <Image
             src="/logo.svg"
             alt="Black Falcon"
             width={258}
             height={70}
             priority
-            className="h-12 w-auto object-contain sm:h-14 md:h-16"
+            className="h-10 w-auto object-contain sm:h-12 md:h-14"
           />
         </Link>
 
