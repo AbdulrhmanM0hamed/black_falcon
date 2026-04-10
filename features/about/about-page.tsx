@@ -41,9 +41,9 @@ export function AboutPage({
         actions={
           <div className="flex flex-col gap-3 sm:flex-row">
             <Button asChild>
-              <Link href={withLocale(locale, "/contact")}>
+              <a href={siteSettings.whatsapp} target="_blank" rel="noopener noreferrer">
                 {dictionary.common.discussProject}
-              </Link>
+              </a>
             </Button>
             <Button asChild variant="secondary">
               <Link href={withLocale(locale, "/projects")}>
@@ -141,7 +141,7 @@ export function AboutPage({
               : "دعنا نحول مبادرتك القادمة على الويب أو الموبايل أو المنصة إلى تجربة منتج تبدو احترافية من أول انطباع وحتى الإطلاق."
           }
           primaryLabel={dictionary.common.startConversation}
-          primaryHref={withLocale(locale, "/contact")}
+          primaryHref={siteSettings.whatsapp}
           secondaryLabel={dictionary.common.viewAll}
           secondaryHref={withLocale(locale, "/services")}
         />

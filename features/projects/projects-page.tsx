@@ -30,8 +30,8 @@ export function ProjectsPage({
         }
         metrics={[
           {
-            value: String(projects.length),
-            label: locale === "en" ? "case studies" : "دراسات حالة",
+            value: "+20",
+            label: locale === "en" ? "Technical projects developed" : "عملنا على أكثر من 20 مشروع تقني",
           },
           {
             value: "1",

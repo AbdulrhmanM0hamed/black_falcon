@@ -93,6 +93,15 @@ import mshwarPng8 from "@/public/projects/mshwar/png8.webp";
 import mshwarPng9 from "@/public/projects/mshwar/png9.webp";
 import mshwarPng10 from "@/public/projects/mshwar/png10.webp";
 
+// Elsquor
+import elsquorCover from "@/public/projects/covers/elsquor.webp";
+import elsquorPng1 from "@/public/projects/elsquor/png1.webp";
+import elsquorPng2 from "@/public/projects/elsquor/png2.webp";
+import elsquorPng3 from "@/public/projects/elsquor/png3.webp";
+import elsquorPng4 from "@/public/projects/elsquor/png4.webp";
+import elsquorPng5 from "@/public/projects/elsquor/png5.webp";
+import elsquorPng6 from "@/public/projects/elsquor/png6.webp";
+
 import type { Project } from "@/types/content";
 
 export const projects: Project[] = [
@@ -1201,4 +1210,100 @@ export const projects: Project[] = [
     featured: true,
   },
 
+  {
+    slug: "elsquor",
+    name: {
+      en: "Falcons Appliances",
+      ar: "الصقور للأجهزة الكهربائية",
+    },
+    shortDescription: {
+      en: "A premium e-commerce platform for electrical appliances, featuring smart bundle offers and advanced product comparison.",
+      ar: "منصة تجارة إلكترونية متطورة للأجهزة الكهربائية، تتميز بعرض باقات ذكية ونظام مقارنة أسعار متقدم.",
+    },
+    detailedDescription: {
+      en: "Falcons for Electrical Appliances is a robust e-commerce solution designed for modern appliance shopping. Developed with a high-performance stack of Next.js and Node.js, the platform offers a seamless shopping experience with features like category filtering, smart device bundles, and a pricing comparison tool. The design is clean and organized, focusing on clarity and ease of purchase for high-value items.",
+      ar: "موقع الصقور هو منصة إلكترونية احترافية لبيع الأجهزة الكهربائية، تم تصميمها وتطويرها باستخدام Next.js و Node.js مع قاعدة بيانات PostgreSQL لضمان أعلى مستويات الأداء. يتميز الموقع بتصميم مرتب ومميز يسهل على المستخدم تصفح المنتجات، مع إمكانية عرض باقات الأجهزة المتكاملة، وتصفية المنتجات حسب الاحتياج، وإجراء مقارنات دقيقة للأسعار بين الخيارات المتاحة قبل الإضافة للسلة وإتمام الشراء.",
+    },
+    categoryKey: "e-commerce",
+    category: { en: "E-Commerce", ar: "تجارة إلكترونية" },
+    industryKey: "retail",
+    industry: { en: "Electronics Retail", ar: "تجزئة الإلكترونيات" },
+    coverImage: elsquorCover,
+    gallery: [
+      { src: elsquorPng1, alt: { en: "Home Overview", ar: "نظرة عامة على الرئيسية" } },
+      { src: elsquorPng2, alt: { en: "Product Listing", ar: "قوائم المنتجات" } },
+      { src: elsquorPng3, alt: { en: "Smart Bundles", ar: "الباقات الذكية" } },
+      { src: elsquorPng4, alt: { en: "Device Details", ar: "تفاصيل الجهاز" } },
+      { src: elsquorPng5, alt: { en: "Comparison Tool", ar: "أداة المقارنة" } },
+      { src: elsquorPng6, alt: { en: "Secure Checkout", ar: "إتمام الشراء الآمن" } },
+    ],
+    serviceSlugs: ["web-system-development", "ui-ux-design", "software-testing-qa"],
+    techStack: ["Next.js", "Node.js", "PostgreSQL", "TypeScript", "Tailwind CSS", "Redux Toolkit"],
+    features: {
+      en: [
+        "Interactive product bundles and packages",
+        "Advanced technical specifications filtering",
+        "Side-by-side price and feature comparison",
+        "Secure cart and multi-step checkout flow",
+        "High-performance responsive design for all devices",
+      ],
+      ar: [
+        "باقات وعروض أجهزة تفاعلية",
+        "تصفية متقدمة حسب المواصفات التقنية",
+        "مقارنة أسعار ومميزات جنباً إلى جنب",
+        "سلة شراء آمنة ومسار دفع متعدد الخطوات",
+        "تصميم متجاوب عالي الأداء لجميع الأجهزة",
+      ],
+    },
+    challenges: [
+      {
+        title: { en: "Complex Product Relational Data", ar: "بيانات المنتجات المعقدة" },
+        description: {
+          en: "Structuring the PostgreSQL database to handle thousands of technical specifications and dynamic bundle relationships without slowing down queries.",
+          ar: "هيكلة قاعدة بيانات PostgreSQL للتعامل مع آلاف المواصفات التقنية وعلاقات الباقات الديناميكية دون التأثير على سرعة الاستعلامات.",
+        },
+      },
+      {
+        title: { en: "User-Friendly Comparison Engine", ar: "محرك مقارنة سهل الاستخدام" },
+        description: {
+          en: "Creating a seamless UI for comparing high-value items where technical details are critical to the purchase decision.",
+          ar: "إنشاء واجهة مستخدم سلسة لمقارنة السلع عالية القيمة حيث تكون التفاصيل التقنية حاسمة في قرار الشراء.",
+        },
+      },
+    ],
+    solutions: [
+      {
+        title: { en: "Hybrid Rendering Strategy", ar: "استراتيجية عرض هجينة (Hybrid)" },
+        description: {
+          en: "Using Next.js ISR (Incremental Static Regeneration) for product pages to ensure fast load times and consistent SEO performance.",
+          ar: "استخدام ميزة ISR في Next.js لصفحات المنتجات لضمان أوقات تحميل سريعة وأداء SEO ثابت.",
+        },
+      },
+      {
+        title: { en: "Node.js Microservices Layer", ar: "طبقة خدمات Node.js مصغرة" },
+        description: {
+          en: "Implementing a clean Node.js backend to manage cart logic, pricing rules, and bundles calculation efficiently.",
+          ar: "تنفيذ خلفية Node.js نظيفة لإدارة منطق السلة، وقواعد التسعير، وحسابات الباقات بكفاءة عالية.",
+        },
+      },
+    ],
+    results: [
+      {
+        value: "Fast",
+        label: { en: "Conversion Speed", ar: "سرعة التحويل" },
+        description: { en: "Optimized checkout flow reduced drop-off rates significantly.", ar: "أدى مسار الدفع المحسن إلى تقليل معدلات الانسحاب بشكل ملحوظ." },
+      },
+      {
+        value: "Premium",
+        label: { en: "UX Standard", ar: "معيار تجربة المستخدم" },
+        description: { en: "Distinctive design that builds trust in high-value online purchases.", ar: "تصميم مميز يبني الثقة في الشراء عبر الإنترنت للسلع عالية القيمة." },
+      },
+    ],
+    timeline: { en: "Full platform launch", ar: "إطلاق المنصة بالكامل" },
+    projectType: "website",
+    links: { website: "https://falcons-for-electrical-appliances.vercel.app/" },
+    heroAccent: "#1d4ed8",
+    relatedProjectSlugs: ["dalilk", "mshwar"],
+    featured: true,
+  },
 ];

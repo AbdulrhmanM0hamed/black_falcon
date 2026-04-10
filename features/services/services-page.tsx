@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import { ProcessSection } from "@/components/sections/process-section";
 import { ServicesShowcaseSection } from "@/components/sections/services-showcase-section";
 import { withLocale } from "@/lib/i18n";
+import { siteSettings } from "@/data/site";
 import type { Dictionary } from "@/messages/en";
 import type { Locale, ProcessStep, Service } from "@/types/content";
 
@@ -30,9 +31,9 @@ export function ServicesPage({
         actions={
           <div className="flex flex-col gap-3 sm:flex-row">
             <Button asChild>
-              <Link href={withLocale(locale, "/contact")}>
+              <a href={siteSettings.whatsapp} target="_blank" rel="noopener noreferrer">
                 {dictionary.common.discussProject}
-              </Link>
+              </a>
             </Button>
             <Button asChild variant="secondary">
               <Link href={withLocale(locale, "/projects")}>
@@ -108,7 +109,7 @@ export function ServicesPage({
               : "يمكننا دعم نطاق محدد أو بناء مسار متكامل يجمع بين التصميم والهندسة والجودة والتشغيل."
           }
           primaryLabel={dictionary.common.startConversation}
-          primaryHref={withLocale(locale, "/contact")}
+          primaryHref={siteSettings.whatsapp}
           secondaryLabel={dictionary.common.readCaseStudy}
           secondaryHref={withLocale(locale, "/projects")}
         />

@@ -11,6 +11,7 @@ import { Button } from "@/components/ui/button";
 import { CtaPanel } from "@/components/common/cta-panel";
 import { PageHero } from "@/components/common/page-hero";
 import { localize, withLocale } from "@/lib/i18n";
+import { siteSettings } from "@/data/site";
 import type { Dictionary } from "@/messages/en";
 import type { FaqItem, Locale } from "@/types/content";
 
@@ -31,9 +32,9 @@ export function FaqPage({
         description={dictionary.faqPage.hero.description}
         actions={
           <Button asChild>
-            <Link href={withLocale(locale, "/contact")}>
+            <a href={siteSettings.whatsapp} target="_blank" rel="noopener noreferrer">
               {dictionary.common.startConversation}
-            </Link>
+            </a>
           </Button>
         }
         media={
@@ -75,7 +76,7 @@ export function FaqPage({
               : "يمكننا غالباً توجيهك سريعاً إلى مزيج الخدمات المناسب وإيقاع التنفيذ المتوقع والاتجاه التقني الملائم."
           }
           primaryLabel={dictionary.common.startConversation}
-          primaryHref={withLocale(locale, "/contact")}
+          primaryHref={siteSettings.whatsapp}
         />
       </div>
     </div>

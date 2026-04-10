@@ -49,6 +49,7 @@ export type ProjectCategory =
   | "platform"
   | "ai"
   | "commerce"
+  | "e-commerce"
   | "operations"
   | "community"
   | "brand";
@@ -62,7 +63,8 @@ export type IndustryKey =
   | "real-estate"
   | "mobility"
   | "lifestyle"
-  | "business";
+  | "business"
+  | "retail";
 
 export interface TrustSignal {
   iconKey: IconKey;

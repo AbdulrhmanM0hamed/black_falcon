@@ -7,6 +7,7 @@ import { ProjectCard } from "@/components/common/project-card";
 import { Button } from "@/components/ui/button";
 import { localize, withLocale } from "@/lib/i18n";
 import { serviceIconMap } from "@/lib/icons";
+import { siteSettings } from "@/data/site";
 import type { Dictionary } from "@/messages/en";
 import type { Locale, Project, Service } from "@/types/content";
 
@@ -32,9 +33,9 @@ export function ServiceDetailPage({
         actions={
           <div className="flex flex-col gap-3 sm:flex-row">
             <Button asChild>
-              <Link href={withLocale(locale, "/contact")}>
+              <a href={siteSettings.whatsapp} target="_blank" rel="noopener noreferrer">
                 {dictionary.common.discussProject}
-              </Link>
+              </a>
             </Button>
             <Button asChild variant="secondary">
               <Link href={withLocale(locale, "/projects")}>
@@ -173,7 +174,7 @@ export function ServiceDetailPage({
               : "يمكننا تحديد المستوى المناسب من التصميم والهندسة والجودة والدعم التشغيلي بما يناسب مرحلة منتجك الحالية."
           }
           primaryLabel={dictionary.common.startConversation}
-          primaryHref={withLocale(locale, "/contact")}
+          primaryHref={siteSettings.whatsapp}
           secondaryLabel={dictionary.common.readCaseStudy}
           secondaryHref={withLocale(locale, "/projects")}
         />
