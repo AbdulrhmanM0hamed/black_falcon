@@ -299,4 +299,5 @@ export function ProjectDetailPage({
       </div>
     </div>
   );
+  
 }
