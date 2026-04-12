@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import type { ReactNode } from "react";
+import { type ReactNode, Suspense } from "react";
 import { IBM_Plex_Sans_Arabic, Manrope, Space_Grotesk } from "next/font/google";
 import { notFound } from "next/navigation";
 
@@ -67,7 +67,9 @@ export default async function LocaleLayout({
       className={`${spaceGrotesk.variable} ${manrope.variable} ${ibmPlexSansArabic.variable}`}
     >
       <body className="min-h-screen text-foreground">
-        <GlobalLoader />
+        <Suspense fallback={null}>
+          <GlobalLoader />
+        </Suspense>
         <div className="relative flex min-h-screen flex-col overflow-x-clip">
           <SiteHeader locale={locale} dictionary={dictionary.nav} />
           <main className="flex-1">{children}</main>

@@ -6,7 +6,7 @@ import { PageHero } from "@/components/common/page-hero";
 import { ProjectCard } from "@/components/common/project-card";
 import { Button } from "@/components/ui/button";
 import { localize, withLocale } from "@/lib/i18n";
-import { serviceIconMap } from "@/lib/icons";
+
 import { siteSettings } from "@/data/site";
 import type { Dictionary } from "@/messages/en";
 import type { Locale, Project, Service } from "@/types/content";
@@ -22,7 +22,7 @@ export function ServiceDetailPage({
   service: Service;
   relatedProjects: Project[];
 }) {
-  const Icon = serviceIconMap[service.iconKey];
+
 
   return (
     <div className="pb-20">

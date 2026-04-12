@@ -7,7 +7,7 @@ import moazezWebCover from "@/public/projects/covers/Moazez_website_2_11zon.webp
 import mshwarCover from "@/public/projects/covers/Mshwar_3_11zon.webp";
 import multqiElnorCover from "@/public/projects/covers/multqi_elnor_4_11zon.webp";
 import reefCoffeeCover from "@/public/projects/covers/reef_coffe_5_11zon.webp";
-import zakroonCover from "@/public/projects/covers/zakroon.png";
+
 import dalilkPng1 from "@/public/projects/dlalik/png1.webp";
 import dalilkPng2 from "@/public/projects/dlalik/png2.webp";
 import dalilkPng3 from "@/public/projects/dlalik/png3.webp";

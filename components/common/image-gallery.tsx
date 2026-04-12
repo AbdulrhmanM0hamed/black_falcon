@@ -4,7 +4,7 @@ import { useState } from "react";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import { X, ChevronLeft, ChevronRight, Maximize2 } from "lucide-react";
-import { type GalleryImage, type LocalizedValue, type Locale } from "@/types/content";
+import { type GalleryImage, type Locale } from "@/types/content";
 import { localize } from "@/lib/i18n";
 
 export function ImageGallery({

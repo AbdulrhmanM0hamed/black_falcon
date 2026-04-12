@@ -9,18 +9,22 @@ export function GlobalLoader() {
   const pathname = usePathname();
   const searchParams = useSearchParams();
   const [isLoading, setIsLoading] = useState(true);
+  const [prevPath, setPrevPath] = useState("");
+
+  const currentPath = pathname + (searchParams?.toString() || "");
+  if (currentPath !== prevPath) {
+    setPrevPath(currentPath);
+    setIsLoading(true);
+  }
 
   useEffect(() => {
-    // Show loader on path change
-    setIsLoading(true);
-
-    // Hide loader after 3 seconds as requested
-    const timer = setTimeout(() => {
-      setIsLoading(false);
-    }, 2000);
-
-    return () => clearTimeout(timer);
-  }, [pathname, searchParams]);
+    if (isLoading) {
+      const timer = setTimeout(() => {
+        setIsLoading(false);
+      }, 2000);
+      return () => clearTimeout(timer);
+    }
+  }, [isLoading, currentPath]);
 
   // Optionally avoid completely unmounting so CSS transitions work:
   return (

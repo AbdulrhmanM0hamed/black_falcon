@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 
 import {
   Accordion,
@@ -10,7 +9,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { CtaPanel } from "@/components/common/cta-panel";
 import { PageHero } from "@/components/common/page-hero";
-import { localize, withLocale } from "@/lib/i18n";
+import { localize } from "@/lib/i18n";
 import { siteSettings } from "@/data/site";
 import type { Dictionary } from "@/messages/en";
 import type { FaqItem, Locale } from "@/types/content";
