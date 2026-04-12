@@ -73,16 +73,17 @@ export function SiteHeader({
         transition={{ duration: 0.3 }}
         className="mx-auto flex max-w-7xl items-center justify-between rounded-full border px-4 py-3 md:px-6"
       >
-        <Link href={withLocale(locale)} className="group relative flex items-center transition-all active:scale-95">
-          <div className="absolute left-1/2 top-1/2 h-[140%] w-[200%] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#ffa240]/8 blur-[40px]" />
-          <div className="absolute left-1/2 top-1/2 h-[100%] w-[160%] -translate-x-1/2 -translate-y-1/2 rounded-full bg-white/5 blur-[28px]" />
+        <Link href={withLocale(locale)} className="group relative flex items-center transition-all active:scale-95 pl-1 pr-3 py-1 lg:p-0">
+          <div className="absolute inset-y-[-8px] inset-x-[-12px] rounded-full bg-white/[0.06] border border-white/[0.08] backdrop-blur-md shadow-[0_4px_20px_-8px_rgba(255,255,255,0.15)] opacity-0 group-hover:opacity-100 transition-opacity duration-500 lg:opacity-100" />
+          <div className="absolute left-1/2 top-1/2 h-[140%] w-[200%] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#ffa240]/10 blur-[40px] pointer-events-none" />
+          <div className="absolute left-1/2 top-1/2 h-[80%] w-[120%] -translate-x-1/2 -translate-y-1/2 rounded-full bg-gradient-to-b from-white/10 to-transparent blur-[20px] pointer-events-none" />
           <Image
             src="/logo.svg"
             alt="Black Falcon"
             width={258}
             height={70}
             priority
-            className="h-10 w-auto object-contain sm:h-12 md:h-14"
+            className="h-10 w-auto object-contain sm:h-12 md:h-14 relative z-10"
           />
         </Link>
 

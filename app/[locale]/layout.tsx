@@ -40,6 +40,8 @@ export function generateStaticParams() {
 
 export const dynamicParams = false;
 
+import { GlobalLoader } from "@/components/common/global-loader";
+
 export default async function LocaleLayout({
   children,
   params,
@@ -65,6 +67,7 @@ export default async function LocaleLayout({
       className={`${spaceGrotesk.variable} ${manrope.variable} ${ibmPlexSansArabic.variable}`}
     >
       <body className="min-h-screen text-foreground">
+        <GlobalLoader />
         <div className="relative flex min-h-screen flex-col overflow-x-clip">
           <SiteHeader locale={locale} dictionary={dictionary.nav} />
           <main className="flex-1">{children}</main>
