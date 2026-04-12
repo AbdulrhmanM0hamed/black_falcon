@@ -37,15 +37,16 @@ export function SiteFooter({
     <footer className="relative border-t border-white/10 bg-black/35">
       <div className="mx-auto grid max-w-7xl gap-12 px-6 py-16 md:px-10 xl:grid-cols-[1.2fr_0.8fr_0.8fr_0.8fr]">
         <div className="space-y-5">
-          <Link href={withLocale(locale)} className="group relative inline-flex items-center">
-            <div className="absolute left-1/2 top-1/2 h-[140%] w-[200%] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#ffa240]/6 blur-[40px]" />
-            <div className="absolute left-1/2 top-1/2 h-[100%] w-[160%] -translate-x-1/2 -translate-y-1/2 rounded-full bg-white/5 blur-[28px]" />
+          <Link href={withLocale(locale)} className="group relative inline-flex items-center transition-all active:scale-95 pl-1 pr-3 py-1">
+            <div className="absolute inset-y-[-8px] inset-x-[-12px] rounded-full bg-white/[0.06] border border-white/[0.08] backdrop-blur-md shadow-[0_4px_20px_-8px_rgba(255,255,255,0.15)] opacity-100 transition-opacity duration-500" />
+            <div className="absolute left-1/2 top-1/2 h-[140%] w-[200%] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#ffa240]/10 blur-[40px] pointer-events-none" />
+            <div className="absolute left-1/2 top-1/2 h-[80%] w-[120%] -translate-x-1/2 -translate-y-1/2 rounded-full bg-gradient-to-b from-white/10 to-transparent blur-[20px] pointer-events-none" />
             <Image
               src="/logo.svg"
               alt="Black Falcon"
               width={270}
               height={74}
-              className="h-14 w-auto object-contain md:h-16"
+              className="h-14 w-auto object-contain md:h-16 relative z-10"
             />
           </Link>
           <h3 className="max-w-sm text-2xl font-semibold leading-[1.24] tracking-tight text-white">
