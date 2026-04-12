@@ -31,7 +31,7 @@ export const siteSettings: SiteSettings = {
   whatsapp:
     "https://api.whatsapp.com/send/?phone=%2B201030357911&text&type=phone_number&app_absent=0",
   socialLinks: [
-    { label: "LinkedIn", href: "https://linkedin.com/company/black-falcon" },
+    { label: "LinkedIn", href: "https://www.linkedin.com/company/blackfalcons-agency/?viewAsMember=true" },
     { label: "Behance", href: "https://behance.net/blackfalcon" },
     { label: "GitHub", href: "https://github.com/blackfalcon" },
   ],
