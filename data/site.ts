@@ -33,7 +33,8 @@ export const siteSettings: SiteSettings = {
   socialLinks: [
     { label: "LinkedIn", href: "https://www.linkedin.com/company/blackfalcons-agency/?viewAsMember=true" },
     { label: "Behance", href: "https://behance.net/blackfalcon" },
-    { label: "GitHub", href: "https://github.com/blackfalcon" },
+    { label: "Facebook", href: "https://www.facebook.com/profile.php?id=61586988785195" },
+    { label: "Instagram", href: "https://www.instagram.com/blackfalcons0/" },
   ],
 };
 

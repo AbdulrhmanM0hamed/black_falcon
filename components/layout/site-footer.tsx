@@ -57,10 +57,9 @@ export function SiteFooter({
           </p>
           <div className="flex flex-wrap gap-4 pt-2">
             {[
-              { id: 'facebook', icon: '/icons/facebook.png', href: '#' },
+              { id: 'facebook', icon: '/icons/facebook.png', href: siteSettings.socialLinks.find(s => s.label === 'Facebook')?.href || '#' },
               { id: 'linkedin', icon: '/icons/linkedin.png', href: siteSettings.socialLinks.find(s => s.label === 'LinkedIn')?.href || '#' },
-              { id: 'instagram', icon: '/icons/instagram.png', href: '#' },
-              { id: 'github', icon: '/icons/github.png', href: siteSettings.socialLinks.find(s => s.label === 'GitHub')?.href || '#' },
+              { id: 'instagram', icon: '/icons/instagram.png', href: siteSettings.socialLinks.find(s => s.label === 'Instagram')?.href || '#' },
             ].map((social) => (
               <a
                 key={social.id}
