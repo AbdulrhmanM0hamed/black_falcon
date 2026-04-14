@@ -102,6 +102,15 @@ import elsquorPng4 from "@/public/projects/elsquor/png4.webp";
 import elsquorPng5 from "@/public/projects/elsquor/png5.webp";
 import elsquorPng6 from "@/public/projects/elsquor/png6.webp";
 
+// Grenco
+import grencoCover from "@/public/projects/covers/grenco.webp";
+import grencoPng1 from "@/public/projects/granco/png1.webp";
+import grencoPng2 from "@/public/projects/granco/png2.webp";
+import grencoPng3 from "@/public/projects/granco/png3.webp";
+import grencoPng4 from "@/public/projects/granco/png4.webp";
+import grencoPng5 from "@/public/projects/granco/png5.webp";
+import grencoPng6 from "@/public/projects/granco/png6.webp";
+
 import type { Project } from "@/types/content";
 
 export const projects: Project[] = [
@@ -241,6 +250,110 @@ export const projects: Project[] = [
     },
     heroAccent: "#4f46e5",
     relatedProjectSlugs: ["derma-ai", "healtho-gym", "moazez-app"],
+    featured: true,
+  },
+
+  {
+    slug: "grenco",
+    name: {
+      en: "Grenco",
+      ar: "جرينكو",
+    },
+    shortDescription: {
+      en: "A professional corporate website and portfolio for a sustainable recycling solutions provider.",
+      ar: "موقع إلكتروني وبورتفوليو احترافي لشركة متخصصة في حلول إعادة التدوير المستدامة.",
+    },
+    detailedDescription: {
+      en: "Grenco's website is a professional portfolio and service showcase designed to communicate the company's mission: Empowering companies through sustainable recycling solutions that reduce costs and environmental impact. The site features an organized and modern design that effectively conveys the company's vision of leading the transition to a circular economy through smart recycling technology.",
+      ar: "موقع جرينكو هو واجهة رقمية احترافية لعرض خدمات الشركة وبورتفوليو أعمالها. تم تصميمه وتنظيمه بشكل احترافي ليوصل فكرة ورسالة الشركة في تمكين الشركات من خلال حلول إعادة التدوير المستدامة التي تقلل التكاليف والتأثير البيئي. يعكس الموقع رؤية الشركة في قيادة التحول إلى اقتصاد دائري من خلال تكنولوجيا إعادة التدوير الذكية.",
+    },
+    categoryKey: "brand",
+    category: {
+      en: "Corporate Website",
+      ar: "موقع تعريفي للشركات",
+    },
+    industryKey: "business",
+    industry: {
+      en: "Sustainability & Recycling",
+      ar: "الاستدامة وإعادة التدوير",
+    },
+    coverImage: grencoCover,
+    gallery: [
+      { src: grencoPng1, alt: { en: "Home Page", ar: "الصفحة الرئيسية" } },
+      { src: grencoPng2, alt: { en: "Our Mission", ar: "رسالتنا" } },
+      { src: grencoPng3, alt: { en: "Services Showcase", ar: "عرض الخدمات" } },
+      { src: grencoPng4, alt: { en: "Smart Technology", ar: "التكنولوجيا الذكية" } },
+      { src: grencoPng5, alt: { en: "Global Impact", ar: "التأثير العالمي" } },
+      { src: grencoPng6, alt: { en: "Contact and Portfolio", ar: "الاتصال والأعمال" } },
+    ],
+    serviceSlugs: [
+      "ui-ux-design",
+      "web-system-development",
+    ],
+    techStack: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Framer Motion"],
+    features: {
+      en: [
+        "Professional portfolio presentation",
+        "Clear communication of sustainable values",
+        "Responsive and modern user experience",
+        "Optimized service navigation for corporate clients",
+        "High-performance frontend architecture",
+      ],
+      ar: [
+        "عرض احترافي لبورتفوليو الأعمال",
+        "توصيل واضح لقيم الاستدامة",
+        "تجربة مستخدم حديثة وسريعة الاستجابة",
+        "تنقل سهل وسلس بين الخدمات للشركات",
+        "بنية برمجية عالية الأداء",
+      ],
+    },
+    challenges: [
+      {
+        title: {
+          en: "Communicating Smart Sustainability",
+          ar: "توصيل مفهوم الاستدامة الذكية",
+        },
+        description: {
+          en: "The challenge was to design a platform that translates complex recycling technology into a clear, visual-heavy narrative that resonates with B2B clients.",
+          ar: "كان التحدي هو تصميم منصة تترجم تقنيات إعادة التدوير المعقدة إلى قصة بصرية واضحة تجذب انتباه الشركات والعملاء.",
+        },
+      },
+    ],
+    solutions: [
+      {
+        title: {
+          en: "Visual-Driven Corporate Design",
+          ar: "تصميم مؤسسي مبني على الهوية البصرية",
+        },
+        description: {
+          en: "Implemented a clean, organized, and premium design language that highlights cost reductions and environmental benefits through intuitive layouts.",
+          ar: "قمنا بتنفيذ تصميم منظم وراقي يبرز فوائد تقليل التكاليف والأثر البيئي من خلال واجهات سهلة الاستخدام.",
+        },
+      },
+    ],
+    results: [
+      {
+        value: "Professional",
+        label: {
+          en: "Brand Identity",
+          ar: "الهوية التجارية",
+        },
+        description: {
+          en: "Successfully established a strong digital presence for the brand.",
+          ar: "تم إنشاء تواجد رقمي قوي واحترافي للعلامة التجارية.",
+        },
+      },
+    ],
+    timeline: {
+      en: "Professional Showcase Launch",
+      ar: "إطلاق العرض الاحترافي",
+    },
+    projectType: "website",
+    links: {
+      website: "https://grenco.org/",
+    },
+    heroAccent: "#10b981",
+    relatedProjectSlugs: ["elsquor", "bashra-ai"],
     featured: true,
   },
 
