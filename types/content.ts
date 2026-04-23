@@ -52,7 +52,8 @@ export type ProjectCategory =
   | "e-commerce"
   | "operations"
   | "community"
-  | "brand";
+  | "brand"
+  | "landing-page";
 
 export type IndustryKey =
   | "healthcare"

@@ -14,6 +14,8 @@ import dalilkPng3 from "@/public/projects/dlalik/png3.webp";
 import dalilkPng4 from "@/public/projects/dlalik/png4.webp";
 import dalilkPng5 from "@/public/projects/dlalik/png5.webp";
 import dalilkPng6 from "@/public/projects/dlalik/png6.webp";
+
+// reef coffee
 import reefPng1 from "@/public/projects/reef_coffe/png1.webp";
 import reefPng2 from "@/public/projects/reef_coffe/png2.webp";
 import reefPng3 from "@/public/projects/reef_coffe/png3.webp";
@@ -25,6 +27,8 @@ import reefPng8 from "@/public/projects/reef_coffe/png8.webp";
 import reefPng9 from "@/public/projects/reef_coffe/png9.webp";
 import reefPng10 from "@/public/projects/reef_coffe/png10.webp";
 import reefPng11 from "@/public/projects/reef_coffe/png11.webp";
+
+// multqi
 import multqiPng1 from "@/public/projects/multqi/png1.webp";
 import multqiPng2 from "@/public/projects/multqi/png2.webp";
 import multqiPng3 from "@/public/projects/multqi/png3.webp";
@@ -33,6 +37,8 @@ import multqiPng5 from "@/public/projects/multqi/png5.webp";
 import multqiPng6 from "@/public/projects/multqi/png6.webp";
 import multqiPng7 from "@/public/projects/multqi/png7.webp";
 import multqiPng8 from "@/public/projects/multqi/png8.webp";
+
+// derma ai
 import dermaPng1 from "@/public/projects/derma ai/png1.webp";
 import dermaPng2 from "@/public/projects/derma ai/png2.webp";
 import dermaPng3 from "@/public/projects/derma ai/png3.webp";
@@ -110,6 +116,12 @@ import grencoPng3 from "@/public/projects/granco/png3.webp";
 import grencoPng4 from "@/public/projects/granco/png4.webp";
 import grencoPng5 from "@/public/projects/granco/png5.webp";
 import grencoPng6 from "@/public/projects/granco/png6.webp";
+
+// Sulukera
+import sulukeraCover from "@/public/projects/covers/sulukera.webp";
+import sulukeraPng1 from "@/public/projects/sulukera/1.webp";
+import sulukeraPng2 from "@/public/projects/sulukera/2.webp";
+import sulukeraPng3 from "@/public/projects/sulukera/3.webp";
 
 import type { Project } from "@/types/content";
 
@@ -1418,6 +1430,132 @@ export const projects: Project[] = [
     links: { website: "https://falcons-for-electrical-appliances.vercel.app/" },
     heroAccent: "#1d4ed8",
     relatedProjectSlugs: ["dalilk", "mshwar"],
+    featured: true,
+  },
+
+  {
+    slug: "sulukera",
+    name: {
+      en: "Sulukera",
+      ar: "سلوكيرا",
+    },
+    shortDescription: {
+      en: "A high-performance SEO and Google Ads optimized landing page for Applied Behavior Analysis (ABA) certification courses.",
+      ar: "صفحة هبوط احترافية محسنة لمحركات البحث وإعلانات جوجل، مخصصة لدورات تحليل السلوك التطبيقي (ABA) المعتمدة.",
+    },
+    detailedDescription: {
+      en: "Sulukera is a specialized landing page designed for the Applied Behavior Analysis (ABA) certification course, accredited by the QABA Board. The platform is meticulously optimized for SEO and Google Ads to ensure maximum visibility and conversion. It provides comprehensive information about the course tracks (QBA and QASP-S), study plans, and professional accreditation, featuring a countdown to the course start and integrated payment options including Tabby and Tamara.",
+      ar: "سلوكيرا هي صفحة هبوط متخصصة تم تصميمها لدورة تحليل السلوك التطبيقي (ABA) المعتمدة من مجلس اعتماد محللي السلوك الدولي الأمريكي (QABA). تم بناء الموقع بطريقة احترافية تركز على تحسين محركات البحث (SEO) وتوافقية إعلانات جوجل لضمان أفضل ظهور ونتائج. يوفر الموقع تفاصيل كاملة عن مسارات الدراسة (QBA و QASP-S)، خطة البرنامج الدراسي، والاعتمادات المهنية، مع توفير خيارات دفع مرنة تشمل تقسيط تابي وتمارا.",
+    },
+    categoryKey: "landing-page",
+    category: {
+      en: "Landing Page",
+      ar: "صفحة هبوط",
+    },
+    industryKey: "education",
+    industry: {
+      en: "Education & Psychology",
+      ar: "التعليم وعلم النفس",
+    },
+    coverImage: sulukeraCover,
+    gallery: [
+      { src: sulukeraPng1, alt: { en: "Home Page", ar: "الصفحة الرئيسية" } },
+      { src: sulukeraPng2, alt: { en: "Course Tracks", ar: "مسارات الدورة" } },
+      { src: sulukeraPng3, alt: { en: "Accreditation and Payments", ar: "الاعتمادات والدفع" } },
+    ],
+    serviceSlugs: [
+      "ui-ux-design",
+      "web-system-development",
+    ],
+    techStack: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Framer Motion", "SEO Optimization"],
+    features: {
+      en: [
+        "SEO & Google Ads optimized architecture",
+        "Comprehensive ABA course details (QBA & QASP-S)",
+        "Interactive study plan and tracks",
+        "Integrated payment options (Tabby, Tamara, Mada)",
+        "Real-time countdown to course start",
+        "Professional accreditation showcase",
+      ],
+      ar: [
+        "هيكل برمجي محسن للـ SEO وإعلانات جوجل",
+        "تفاصيل شاملة لدورة ABA (مسارات QBA و QASP-S)",
+        "خطة دراسية ومسارات تفاعلية",
+        "خيارات دفع متكاملة (تابي، تمارا، مدى)",
+        "عداد تنازلي لبداية الدورة",
+        "عرض الاعتمادات المهنية والدولية",
+      ],
+    },
+    challenges: [
+      {
+        title: {
+          en: "SEO and Ad Compatibility",
+          ar: "التوافق مع محركات البحث والإعلانات",
+        },
+        description: {
+          en: "Developing a landing page that balances high-density information with extremely fast load times and SEO technical requirements for Google Ads campaigns.",
+          ar: "تطوير صفحة هبوط توازن بين كثافة المعلومات وسرعة التحميل العالية والمتطلبات التقنية للـ SEO لإدارة حملات إعلانات جوجل بكفاءة.",
+        },
+      },
+    ],
+    solutions: [
+      {
+        title: {
+          en: "Optimized Performance Layer",
+          ar: "طبقة أداء محسنة",
+        },
+        description: {
+          en: "Implemented advanced performance optimization techniques using Next.js to ensure a perfect lighthouse score, aiding both SEO ranking and ad quality scores.",
+          ar: "تنفيذ تقنيات تحسين أداء متقدمة باستخدام Next.js لضمان الحصول على أعلى درجات تقييم الأداء، مما يساعد في تصدر نتائج البحث وتحسين جودة الإعلانات.",
+        },
+      },
+    ],
+    results: [
+      {
+        value: "832+",
+        label: {
+          en: "Certificates Issued",
+          ar: "إصدار شهادة",
+        },
+        description: {
+          en: "Successfully issued professional certificates to graduates.",
+          ar: "تم إصدار شهادات مهنية للخريجين بنجاح.",
+        },
+      },
+      {
+        value: "1593+",
+        label: {
+          en: "Former Trainees",
+          ar: "متدرب سابق",
+        },
+        description: {
+          en: "Large community of trainees who completed the program.",
+          ar: "مجتمع كبير من المتدربين الذين أتموا البرنامج بنجاح.",
+        },
+      },
+      {
+        value: "+96",
+        label: {
+          en: "Current Students",
+          ar: "دارس حالي",
+        },
+        description: {
+          en: "High enrollment rate in the current ongoing batch.",
+          ar: "معدل التحاق عالي في الدفعة الحالية المستمرة.",
+        },
+      },
+    ],
+    timeline: {
+      en: "Custom Landing Page Launch",
+      ar: "إطلاق صفحة الهبوط المخصصة",
+    },
+    projectType: "website",
+    links: {
+      website: "https://www.sulukera.com/",
+    },
+    heroAccent: "#1e3a8a",
+    relatedProjectSlugs: ["moazez-web", "bashra-ai"],
+
     featured: true,
   },
 ];
